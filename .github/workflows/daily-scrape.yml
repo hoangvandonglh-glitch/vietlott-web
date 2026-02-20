@@ -1,0 +1,39 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    # Run at 18:45 Vietnam Time (UTC+7) = 11:45 UTC
+    - cron: '45 11 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important: allows the action to push changes
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run Scraper
+        run: node scraper.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --global user.name 'Automated Scraper'
+          git config --global user.email 'scraper@bot.com'
+          git add data/
+          git commit -m "🤖 Auto-update: Daily lottery results"
+          git push

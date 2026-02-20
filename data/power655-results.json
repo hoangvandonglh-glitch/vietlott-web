@@ -1,0 +1,1208 @@
+{
+  "lotteryType": "power655",
+  "lotteryName": "Power 6/55",
+  "lastUpdated": "2026-02-12T14:33:07.938Z",
+  "totalDraws": 50,
+  "results": [
+    {
+      "drawId": "P655-20260212",
+      "date": "20260212",
+      "dayOfWeek": "T5",
+      "numbers": [
+        8,
+        17,
+        19,
+        31,
+        32,
+        46
+      ],
+      "specialNumber": 26,
+      "jackpot1": 59534608350,
+      "jackpot2": 3363804150,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-12T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260210",
+      "date": "20260210",
+      "dayOfWeek": "T3",
+      "numbers": [
+        13,
+        21,
+        22,
+        26,
+        32,
+        55
+      ],
+      "specialNumber": 20,
+      "jackpot1": 56260371000,
+      "jackpot2": 4363958700,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-10T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260207",
+      "date": "20260207",
+      "dayOfWeek": "T7",
+      "numbers": [
+        3,
+        5,
+        13,
+        15,
+        29,
+        46
+      ],
+      "specialNumber": 1,
+      "jackpot1": 52944733200,
+      "jackpot2": 3995554500,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-07T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260205",
+      "date": "20260205",
+      "dayOfWeek": "T5",
+      "numbers": [
+        7,
+        13,
+        16,
+        25,
+        26,
+        55
+      ],
+      "specialNumber": 9,
+      "jackpot1": 50209887000,
+      "jackpot2": 3691682700,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-05T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260203",
+      "date": "20260203",
+      "dayOfWeek": "T3",
+      "numbers": [
+        12,
+        15,
+        18,
+        22,
+        48,
+        53
+      ],
+      "specialNumber": 45,
+      "jackpot1": 47302210650,
+      "jackpot2": 3368607550,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-03T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260131",
+      "date": "20260131",
+      "dayOfWeek": "T7",
+      "numbers": [
+        10,
+        11,
+        14,
+        17,
+        49,
+        53
+      ],
+      "specialNumber": 4,
+      "jackpot1": 43984742700,
+      "jackpot2": 20094162200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-31T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260129",
+      "date": "20260129",
+      "dayOfWeek": "T5",
+      "numbers": [
+        11,
+        15,
+        22,
+        32,
+        34,
+        54
+      ],
+      "specialNumber": 28,
+      "jackpot1": 40895356350,
+      "jackpot2": 19750897050,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-29T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260127",
+      "date": "20260127",
+      "dayOfWeek": "T3",
+      "numbers": [
+        13,
+        22,
+        32,
+        42,
+        53,
+        54
+      ],
+      "specialNumber": 29,
+      "jackpot1": 38390740500,
+      "jackpot2": 19472606400,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-27T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260124",
+      "date": "20260124",
+      "dayOfWeek": "T7",
+      "numbers": [
+        14,
+        24,
+        25,
+        30,
+        35,
+        53
+      ],
+      "specialNumber": 18,
+      "jackpot1": 35167297350,
+      "jackpot2": 19114446050,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-24T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260122",
+      "date": "20260122",
+      "dayOfWeek": "T5",
+      "numbers": [
+        2,
+        20,
+        21,
+        29,
+        36,
+        50
+      ],
+      "specialNumber": 5,
+      "jackpot1": 32706781950,
+      "jackpot2": 18841055450,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-22T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260120",
+      "date": "20260120",
+      "dayOfWeek": "T3",
+      "numbers": [
+        4,
+        20,
+        26,
+        28,
+        37,
+        41
+      ],
+      "specialNumber": 32,
+      "jackpot1": 257134188450,
+      "jackpot2": 18540301900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-20T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260117",
+      "date": "20260117",
+      "dayOfWeek": "T7",
+      "numbers": [
+        14,
+        21,
+        23,
+        25,
+        46,
+        48
+      ],
+      "specialNumber": 54,
+      "jackpot1": 241138005600,
+      "jackpot2": 16762948250,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-17T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260115",
+      "date": "20260115",
+      "dayOfWeek": "T5",
+      "numbers": [
+        13,
+        21,
+        31,
+        34,
+        48,
+        55
+      ],
+      "specialNumber": 27,
+      "jackpot1": 226463116350,
+      "jackpot2": 15132405000,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-15T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260113",
+      "date": "20260113",
+      "dayOfWeek": "T3",
+      "numbers": [
+        3,
+        12,
+        25,
+        51,
+        52,
+        55
+      ],
+      "specialNumber": 43,
+      "jackpot1": 213555593550,
+      "jackpot2": 13698235800,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-13T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260110",
+      "date": "20260110",
+      "dayOfWeek": "T7",
+      "numbers": [
+        9,
+        16,
+        30,
+        33,
+        34,
+        38
+      ],
+      "specialNumber": 49,
+      "jackpot1": 199827244650,
+      "jackpot2": 12172863700,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-10T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260108",
+      "date": "20260108",
+      "dayOfWeek": "T5",
+      "numbers": [
+        20,
+        22,
+        36,
+        43,
+        45,
+        50
+      ],
+      "specialNumber": 47,
+      "jackpot1": 188047526250,
+      "jackpot2": 10864006100,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-08T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260106",
+      "date": "20260106",
+      "dayOfWeek": "T3",
+      "numbers": [
+        22,
+        28,
+        29,
+        30,
+        34,
+        47
+      ],
+      "specialNumber": 20,
+      "jackpot1": 176547951300,
+      "jackpot2": 9586275550,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-06T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260103",
+      "date": "20260103",
+      "dayOfWeek": "T7",
+      "numbers": [
+        10,
+        16,
+        17,
+        23,
+        33,
+        36
+      ],
+      "specialNumber": 42,
+      "jackpot1": 164499610350,
+      "jackpot2": 8247571000,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-03T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20260101",
+      "date": "20260101",
+      "dayOfWeek": "T5",
+      "numbers": [
+        5,
+        16,
+        29,
+        33,
+        39,
+        42
+      ],
+      "specialNumber": 54,
+      "jackpot1": 153894010350,
+      "jackpot2": 7069171000,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-01T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251230",
+      "date": "20251230",
+      "dayOfWeek": "T3",
+      "numbers": [
+        11,
+        30,
+        35,
+        41,
+        48,
+        55
+      ],
+      "specialNumber": 38,
+      "jackpot1": 144058214100,
+      "jackpot2": 5976304750,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-30T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251227",
+      "date": "20251227",
+      "dayOfWeek": "T7",
+      "numbers": [
+        16,
+        21,
+        30,
+        37,
+        39,
+        40
+      ],
+      "specialNumber": 13,
+      "jackpot1": 133260892500,
+      "jackpot2": 4776602350,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-27T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251225",
+      "date": "20251225",
+      "dayOfWeek": "T5",
+      "numbers": [
+        4,
+        6,
+        32,
+        37,
+        40,
+        48
+      ],
+      "specialNumber": 38,
+      "jackpot1": 123854457900,
+      "jackpot2": 3731442950,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-25T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251223",
+      "date": "20251223",
+      "dayOfWeek": "T3",
+      "numbers": [
+        2,
+        10,
+        16,
+        25,
+        32,
+        38
+      ],
+      "specialNumber": 3,
+      "jackpot1": 117271471350,
+      "jackpot2": 4177330300,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-23T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251220",
+      "date": "20251220",
+      "dayOfWeek": "T7",
+      "numbers": [
+        22,
+        32,
+        33,
+        35,
+        40,
+        41
+      ],
+      "specialNumber": 23,
+      "jackpot1": 115627287900,
+      "jackpot2": 3994643250,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-20T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251218",
+      "date": "20251218",
+      "dayOfWeek": "T5",
+      "numbers": [
+        12,
+        14,
+        29,
+        30,
+        39,
+        55
+      ],
+      "specialNumber": 50,
+      "jackpot1": 110723398050,
+      "jackpot2": 3449766600,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-18T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251216",
+      "date": "20251216",
+      "dayOfWeek": "T3",
+      "numbers": [
+        7,
+        36,
+        37,
+        38,
+        52,
+        55
+      ],
+      "specialNumber": 46,
+      "jackpot1": 106675498650,
+      "jackpot2": 3870275450,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-16T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251213",
+      "date": "20251213",
+      "dayOfWeek": "T7",
+      "numbers": [
+        5,
+        8,
+        12,
+        18,
+        20,
+        38
+      ],
+      "specialNumber": 52,
+      "jackpot1": 101125122150,
+      "jackpot2": 3253566950,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-13T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251211",
+      "date": "20251211",
+      "dayOfWeek": "T5",
+      "numbers": [
+        9,
+        13,
+        21,
+        45,
+        48,
+        55
+      ],
+      "specialNumber": 38,
+      "jackpot1": 98843019600,
+      "jackpot2": 4619585500,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-11T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251209",
+      "date": "20251209",
+      "dayOfWeek": "T3",
+      "numbers": [
+        14,
+        21,
+        26,
+        27,
+        31,
+        43
+      ],
+      "specialNumber": 42,
+      "jackpot1": 94702633950,
+      "jackpot2": 4159542650,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-09T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251206",
+      "date": "20251206",
+      "dayOfWeek": "T7",
+      "numbers": [
+        12,
+        26,
+        34,
+        37,
+        50,
+        52
+      ],
+      "specialNumber": 15,
+      "jackpot1": 91214740200,
+      "jackpot2": 3771998900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-06T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251204",
+      "date": "20251204",
+      "dayOfWeek": "T5",
+      "numbers": [
+        10,
+        29,
+        32,
+        33,
+        44,
+        53
+      ],
+      "specialNumber": 14,
+      "jackpot1": 87887521200,
+      "jackpot2": 3402307900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-04T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251202",
+      "date": "20251202",
+      "dayOfWeek": "T3",
+      "numbers": [
+        16,
+        20,
+        24,
+        36,
+        51,
+        54
+      ],
+      "specialNumber": 10,
+      "jackpot1": 84266750100,
+      "jackpot2": 4695950200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-02T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251129",
+      "date": "20251129",
+      "dayOfWeek": "T7",
+      "numbers": [
+        4,
+        20,
+        24,
+        27,
+        40,
+        48
+      ],
+      "specialNumber": 9,
+      "jackpot1": 80418746100,
+      "jackpot2": 4268394200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-29T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251127",
+      "date": "20251127",
+      "dayOfWeek": "T5",
+      "numbers": [
+        4,
+        5,
+        10,
+        11,
+        28,
+        35
+      ],
+      "specialNumber": 38,
+      "jackpot1": 76934411400,
+      "jackpot2": 3881245900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-27T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251125",
+      "date": "20251125",
+      "dayOfWeek": "T3",
+      "numbers": [
+        23,
+        31,
+        32,
+        42,
+        46,
+        48
+      ],
+      "specialNumber": 4,
+      "jackpot1": 74915017950,
+      "jackpot2": 3656868850,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-25T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251122",
+      "date": "20251122",
+      "dayOfWeek": "T7",
+      "numbers": [
+        8,
+        10,
+        19,
+        29,
+        34,
+        46
+      ],
+      "specialNumber": 14,
+      "jackpot1": 71484993300,
+      "jackpot2": 3275755000,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-22T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251120",
+      "date": "20251120",
+      "dayOfWeek": "T5",
+      "numbers": [
+        3,
+        12,
+        19,
+        20,
+        31,
+        42
+      ],
+      "specialNumber": 13,
+      "jackpot1": 69003198300,
+      "jackpot2": 3587633800,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-20T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251118",
+      "date": "20251118",
+      "dayOfWeek": "T3",
+      "numbers": [
+        7,
+        12,
+        18,
+        22,
+        30,
+        49
+      ],
+      "specialNumber": 5,
+      "jackpot1": 66647263800,
+      "jackpot2": 3325863300,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-18T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251115",
+      "date": "20251115",
+      "dayOfWeek": "T7",
+      "numbers": [
+        2,
+        30,
+        33,
+        35,
+        42,
+        54
+      ],
+      "specialNumber": 45,
+      "jackpot1": 63714494100,
+      "jackpot2": 3995551950,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-15T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251113",
+      "date": "20251113",
+      "dayOfWeek": "T5",
+      "numbers": [
+        1,
+        15,
+        30,
+        38,
+        40,
+        43
+      ],
+      "specialNumber": 13,
+      "jackpot1": 60698802000,
+      "jackpot2": 3660475050,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-13T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251111",
+      "date": "20251111",
+      "dayOfWeek": "T3",
+      "numbers": [
+        11,
+        20,
+        28,
+        41,
+        47,
+        54
+      ],
+      "specialNumber": 31,
+      "jackpot1": 57859966200,
+      "jackpot2": 3345048850,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-11T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251108",
+      "date": "20251108",
+      "dayOfWeek": "T7",
+      "numbers": [
+        14,
+        16,
+        19,
+        22,
+        27,
+        44
+      ],
+      "specialNumber": 18,
+      "jackpot1": 54754526550,
+      "jackpot2": 3725477650,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-08T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251106",
+      "date": "20251106",
+      "dayOfWeek": "T5",
+      "numbers": [
+        16,
+        20,
+        29,
+        33,
+        36,
+        49
+      ],
+      "specialNumber": 6,
+      "jackpot1": 52441587750,
+      "jackpot2": 3468484450,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-06T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251104",
+      "date": "20251104",
+      "dayOfWeek": "T3",
+      "numbers": [
+        15,
+        27,
+        29,
+        31,
+        36,
+        43
+      ],
+      "specialNumber": 38,
+      "jackpot1": 50350993050,
+      "jackpot2": 3236196150,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-04T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251101",
+      "date": "20251101",
+      "dayOfWeek": "T7",
+      "numbers": [
+        7,
+        11,
+        28,
+        29,
+        31,
+        33
+      ],
+      "specialNumber": 8,
+      "jackpot1": 48225227700,
+      "jackpot2": 3492904850,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-01T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251030",
+      "date": "20251030",
+      "dayOfWeek": "T5",
+      "numbers": [
+        20,
+        23,
+        35,
+        41,
+        47,
+        55
+      ],
+      "specialNumber": 37,
+      "jackpot1": 46373178900,
+      "jackpot2": 3287121650,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-10-30T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251028",
+      "date": "20251028",
+      "dayOfWeek": "T3",
+      "numbers": [
+        6,
+        8,
+        10,
+        22,
+        25,
+        54
+      ],
+      "specialNumber": 9,
+      "jackpot1": 43789084050,
+      "jackpot2": 3255619250,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-10-28T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251025",
+      "date": "20251025",
+      "dayOfWeek": "T7",
+      "numbers": [
+        3,
+        5,
+        11,
+        13,
+        24,
+        27
+      ],
+      "specialNumber": 45,
+      "jackpot1": 41488510800,
+      "jackpot2": 4095809200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-10-25T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251023",
+      "date": "20251023",
+      "dayOfWeek": "T5",
+      "numbers": [
+        8,
+        10,
+        21,
+        48,
+        49,
+        50
+      ],
+      "specialNumber": 40,
+      "jackpot1": 39936636300,
+      "jackpot2": 3923378700,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-10-23T14:33:07.942Z"
+    },
+    {
+      "drawId": "P655-20251021",
+      "date": "20251021",
+      "dayOfWeek": "T3",
+      "numbers": [
+        3,
+        11,
+        12,
+        14,
+        22,
+        40
+      ],
+      "specialNumber": 41,
+      "jackpot1": 37705495800,
+      "jackpot2": 3675474200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-10-21T14:33:07.942Z"
+    }
+  ]
+}
