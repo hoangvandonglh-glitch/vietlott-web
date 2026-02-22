@@ -601,3 +601,148 @@ body {
         font-size: 1.5rem;
     }
 }
+
+/* ===== STATISTICS PAGE ===== */
+.stats-card { margin-bottom: 2rem; }
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1rem; }
+.stats-col-title { font-size: 1rem; font-weight: 600; color: var(--text-primary); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--border-color); }
+.freq-row { display: flex; align-items: center; gap: 0.75rem; padding: 0.4rem 0; }
+.number-ball.small { width: 2rem; height: 2rem; font-size: 0.75rem; flex-shrink: 0; }
+.freq-bar-wrap { flex: 1; height: 8px; background: var(--border-color); border-radius: 4px; overflow: hidden; }
+.freq-bar { height: 100%; background: linear-gradient(90deg, var(--primary), var(--secondary)); border-radius: 4px; }
+.freq-count { font-size: 0.8rem; color: var(--text-secondary); min-width: 4rem; text-align: right; }
+@media (max-width: 768px) { .stats-grid { grid-template-columns: 1fr; } }
+
+/* ===== CHECKER PAGE ===== */
+.checker-result-row { padding: 0.75rem 0; }
+.checker-draw-info { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.25rem; }
+.number-ball-match { background: linear-gradient(135deg, var(--accent), #f97316) !important; color: white !important; font-weight: 700; transform: scale(1.1); box-shadow: 0 0 0 3px rgba(245,158,11,0.3); }
+.badge { display: inline-block; background: var(--bg-secondary); color: var(--text-secondary); border: 1px solid var(--border-color); padding: 0.2rem 0.6rem; border-radius: var(--radius-sm); font-size: 0.8rem; font-weight: 600; }
+.badge-match { background: var(--success); color: white; border-color: var(--success); }
+.notification-error { background: var(--danger); }
+
+/* ===== MULTI-SET PREDICTION RESULTS ===== */
+.results-sets-container { margin-top: 1rem; }
+.result-set-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0;
+}
+.result-set-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 5rem;
+    flex-shrink: 0;
+}
+.result-set-index {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    min-width: 1.5rem;
+}
+.score-badge.score-inline {
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.score-value-sm { font-size: 0.875rem; font-weight: 700; line-height: 1; }
+.score-label-sm { font-size: 0.65rem; opacity: 0.85; }
+.numbers-display-compact {
+    flex: 1;
+    margin: 0;
+    justify-content: flex-start;
+    gap: 0.4rem;
+}
+.number-ball-sm {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.result-set-divider {
+    height: 1px;
+    background: var(--border-color);
+    margin: 0;
+}
+.btn-icon {
+    padding: 0.5rem;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+.btn-icon:hover {
+    background: var(--bg-hover);
+    color: var(--primary);
+    transform: none;
+    box-shadow: none;
+}
+@media (max-width: 600px) {
+    .number-ball-sm { width: 32px; height: 32px; font-size: 0.8rem; }
+    .result-set-label { width: 4rem; }
+}
+
+/* ===== REDESIGNED STATISTICS PAGE ===== */
+.stats-summary-card {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
+}
+
+.stats-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stats-summary-item {
+    text-align: center;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.stats-summary-value {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+    color: var(--primary);
+}
+
+.stats-summary-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.match-breakdown {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed var(--border-color);
+}
+
+.stat-detail-row {
+    padding: 1.25rem 0;
+}
+
+.stat-detail-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.number-ball.number-ball-match {
+    background: linear-gradient(135deg, var(--success) 0%, #059669 100%) !important;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+}

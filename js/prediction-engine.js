@@ -40,16 +40,33 @@ const PredictionEngine = (() => {
     }
 
     function getFrequencyData(lotteryType) {
-        // Simulated frequency data (in real app, would come from historical-data.js)
         const config = LOTTERY_CONFIG[lotteryType];
         const frequencies = {};
 
-        // Generate simulated frequency data with some variation
+        // Initialize all numbers with zero
         for (let i = config.minNumber; i <= config.maxNumber; i++) {
-            // Create a bell curve distribution with some randomness
-            const distance = Math.abs(i - config.maxNumber / 2);
-            const baseFreq = 50 - distance / 2;
-            frequencies[i] = Math.max(10, baseFreq + getRandomInt(-15, 15));
+            frequencies[i] = 0;
+        }
+
+        // Use real historical data if available
+        if (window.HistoricalData && window.HistoricalData[lotteryType] && window.HistoricalData[lotteryType].results) {
+            const results = window.HistoricalData[lotteryType].results;
+            results.forEach(result => {
+                if (result.numbers && Array.isArray(result.numbers)) {
+                    result.numbers.forEach(num => {
+                        if (frequencies[num] !== undefined) {
+                            frequencies[num]++;
+                        }
+                    });
+                }
+            });
+        } else {
+            // Fallback: simulated data if historical data not available
+            for (let i = config.minNumber; i <= config.maxNumber; i++) {
+                const distance = Math.abs(i - config.maxNumber / 2);
+                const baseFreq = 50 - distance / 2;
+                frequencies[i] = Math.max(10, baseFreq + getRandomInt(-15, 15));
+            }
         }
 
         return frequencies;
@@ -94,6 +111,17 @@ const PredictionEngine = (() => {
             }
         }
         return false;
+    }
+
+    function countConsecutivePairs(numbers) {
+        const sorted = [...numbers].sort((a, b) => a - b);
+        let pairs = 0;
+        for (let i = 0; i < sorted.length - 1; i++) {
+            if (sorted[i + 1] - sorted[i] === 1) {
+                pairs++;
+            }
+        }
+        return pairs;
     }
 
     function isBalancedDistribution(numbers, maxNumber) {
@@ -185,10 +213,17 @@ const PredictionEngine = (() => {
             score += analysis.sumScore;
         }
 
-        // 4. Consecutive Numbers (15 points)
-        const hasConsec = hasConsecutive(numbers);
-        analysis.hasConsecutive = hasConsec;
-        analysis.consecutiveScore = hasConsec ? 15 : 0;
+        // 4. Consecutive Numbers (10 points)
+        // Thực tế: ~70% kết quả xổ số có ít nhất 1 cặp số liên tiếp
+        const consecPairs = countConsecutivePairs(numbers);
+        analysis.hasConsecutive = consecPairs > 0;
+        if (consecPairs === 1) {
+            analysis.consecutiveScore = 10; // 1 cặp: bình thường, tốt
+        } else if (consecPairs === 0) {
+            analysis.consecutiveScore = 5;  // Không có: hiếm nhưng chấp nhận được
+        } else {
+            analysis.consecutiveScore = 0;  // 2+ cặp: không tự nhiên
+        }
         score += analysis.consecutiveScore;
 
         // 5. Distribution (10 points)

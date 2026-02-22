@@ -80,17 +80,8 @@ function fetchHtml(url) {
 
         https.get(url, options, (res) => {
             if (res.statusCode === 301 || res.statusCode === 302) {
-                // Follow redirect if needed
-                if (res.headers.location) {
-                    // Handle relative or absolute URLs
-                    const redirectUrl = res.headers.location.startsWith('http')
-                        ? res.headers.location
-                        : CONFIG.baseUrl + res.headers.location;
-                    console.log(`Redirecting to ${redirectUrl}`);
-                    fetchHtml(redirectUrl).then(resolve).catch(reject);
-                } else {
-                    reject(new Error(`Redirect without location`));
-                }
+                // Return a specific object for redirects instead of following
+                resolve({ redirect: true, location: res.headers.location });
                 return;
             }
 
@@ -252,7 +243,17 @@ async function crawlLottery(key) {
             process.stdout.write(`Fetching ${dateStr}... `);
 
             try {
-                const html = await fetchHtml(url);
+                const response = await fetchHtml(url);
+
+                if (response.redirect) {
+                    console.log(`❌ Skipped (Redirects to ${response.location})`);
+                    // IMPORTANT: Move to next day before continuing
+                    currentDate.setDate(currentDate.getDate() - 1);
+                    daysChecked++;
+                    continue;
+                }
+
+                const html = response;
                 // Basic check if data exists (look for table)
                 if (html.includes('id="DT6X')) {
                     const result = parseResult(html, key, currentDate);
@@ -276,8 +277,8 @@ async function crawlLottery(key) {
                 }
             }
 
-            // Random delay 500ms - 1500ms
-            await delay(500 + Math.random() * 1000);
+            // Random delay 1500ms - 3500ms
+            await delay(1500 + Math.random() * 2000);
         }
 
         // Go back 1 day

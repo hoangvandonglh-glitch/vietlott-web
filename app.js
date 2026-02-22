@@ -230,20 +230,153 @@ function setupPredictorEvents() {
 }
 
 function loadStatisticsPage() {
+    const predictions = AppState.predictions;
+
+    if (predictions.length === 0) {
+        const html = `
+            <section class="page active statistics-page">
+                <div class="container">
+                    <div class="page-header">
+                        <h1 class="page-title">Thống kê Dự đoán</h1>
+                        <p class="page-subtitle">Kiểm tra độ chính xác của các dự đoán đã lưu</p>
+                    </div>
+                    <div class="card empty-state">
+                        <h3>Chưa có dữ liệu</h3>
+                        <p>Bạn chưa có dự đoán nào được lưu. Hay tạo dự đoán trước!</p>
+                        <button class="btn btn-primary" onclick="navigateToPage('predictor')">Dự đoán ngay</button>
+                    </div>
+                </div>
+            </section>
+        `;
+        document.getElementById('dynamicContent').innerHTML = html;
+        return;
+    }
+
+    // For each prediction: find the nearest draw AFTER prediction time
+    const checkedResults = predictions.map(pred => {
+        if (!window.HistoricalData || !window.HistoricalData[pred.lotteryType]) return null;
+        const draws = window.HistoricalData[pred.lotteryType].results;
+        if (!draws || draws.length === 0) return null;
+
+        const predTime = new Date(pred.timestamp).getTime();
+
+        // Find draws that happened AFTER the prediction
+        const laterDraws = draws
+            .filter(d => new Date(d.timestamp).getTime() > predTime)
+            .sort((a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime());
+
+        if (laterDraws.length === 0) {
+            // No later draw found yet - it is PENDING
+            return { pred, pending: true };
+        }
+
+        const draw = laterDraws[0]; // nearest draw after prediction
+        const matched = pred.numbers.filter(n => draw.numbers.includes(n));
+        return { pred, draw, matched: matched.length, pending: false };
+    }).filter(Boolean);
+
+    // Summary stats (calculated from completed results only)
+    const completed = checkedResults.filter(r => !r.pending);
+    const pendingCount = checkedResults.filter(r => r.pending).length;
+    const totalCompleted = completed.length;
+
+    const byMatch = [0, 1, 2, 3, 4, 5, 6].map(n => completed.filter(r => r.matched === n).length);
+    const hitRate = totalCompleted > 0 ? (completed.filter(r => r.matched >= 2).length / totalCompleted * 100).toFixed(1) : 0;
+
+    const summaryHtml = `
+        <div class="card stats-summary-card">
+            <h3 class="card-title">Tổng quan độ chính xác</h3>
+            <div class="stats-summary-grid">
+                <div class="stats-summary-item">
+                    <div class="stats-summary-value">${totalCompleted}</div>
+                    <div class="stats-summary-label">Dự đoán đã đối số</div>
+                </div>
+                <div class="stats-summary-item">
+                    <div class="stats-summary-value" style="color:var(--accent)">${pendingCount}</div>
+                    <div class="stats-summary-label">Đang chờ kết quả</div>
+                </div>
+                <div class="stats-summary-item">
+                    <div class="stats-summary-value" style="color:var(--success)">${hitRate}%</div>
+                    <div class="stats-summary-label">Trúng từ 2 số</div>
+                </div>
+                <div class="stats-summary-item">
+                    <div class="stats-summary-value" style="color:var(--primary)">${byMatch[3] + byMatch[4] + byMatch[5] + byMatch[6]}</div>
+                    <div class="stats-summary-label">Trúng từ 3 số</div>
+                </div>
+            </div>
+            ${totalCompleted > 0 ? `
+            <div class="match-breakdown">
+                <h4 style="margin-bottom:0.75rem;font-size:0.95rem;color:var(--text-secondary)">Phân bổ số trúng (trên ${totalCompleted} kỳ)</h4>
+                ${[0, 1, 2, 3, 4, 5, 6].map(n => {
+        const count = byMatch[n];
+        const pct = Math.round(count / totalCompleted * 100);
+        const color = n >= 4 ? 'var(--success)' : n >= 2 ? 'var(--primary)' : 'var(--border-color)';
+        return `<div class="freq-row">
+                        <span style="min-width:4rem;font-weight:600;color:${n >= 2 ? 'var(--text-primary)' : 'var(--text-secondary)'}">${n} số trúng</span>
+                        <div class="freq-bar-wrap"><div class="freq-bar" style="width:${pct}%;background:${color}"></div></div>
+                        <span class="freq-count">${count} lần (${pct}%)</span>
+                    </div>`;
+    }).join('')}
+            </div>` : ''}
+        </div>`;
+
+    // Detail table: last 20 predictions
+    const recent = checkedResults.slice(0, 20);
+    const detailHtml = `
+        <div class="card" style="margin-top:1.5rem">
+            <h3 class="card-title">Chi tiết ${recent.length} dự đoán gần nhất</h3>
+            ${recent.map((r, i) => {
+        const lotteryName = r.pred.lotteryType === 'power655' ? 'Power 6/55' : 'Mega 6/45';
+        const predDate = new Date(r.pred.timestamp).toLocaleString('vi-VN');
+
+        if (r.pending) {
+            return `
+                        <div class="stat-detail-row">
+                            <div class="stat-detail-meta">
+                                <span class="badge">${lotteryName}</span>
+                                <span class="text-secondary" style="font-size:0.8rem">Dự đoán: ${predDate}</span>
+                            </div>
+                            <div style="display:flex;align-items:center;gap:0.75rem;margin-top:0.4rem">
+                                <div style="display:flex;gap:0.3rem">
+                                    ${r.pred.numbers.map(n => `<span class="number-ball number-ball-sm">${String(n).padStart(2, '0')}</span>`).join('')}
+                                </div>
+                                <span class="badge" style="background:var(--bg-secondary);color:var(--accent);border-color:var(--accent)">Đang chờ kết quả...</span>
+                            </div>
+                        </div>`;
+        }
+
+        const drawDate = new Date(r.draw.timestamp).toLocaleDateString('vi-VN');
+        const matchColor = r.matched >= 4 ? 'var(--success)' : r.matched >= 2 ? 'var(--primary)' : 'var(--text-secondary)';
+
+        return `
+                    <div class="stat-detail-row">
+                        <div class="stat-detail-meta">
+                            <span class="badge">${lotteryName}</span>
+                            <span class="text-secondary" style="font-size:0.8rem">Dự đoán: ${predDate} → Kỳ quay: ${drawDate}</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;margin-top:0.4rem">
+                            <div style="display:flex;gap:0.3rem">
+                                ${r.pred.numbers.map(n => {
+            const hit = r.draw.numbers.includes(n);
+            return `<span class="number-ball number-ball-sm${hit ? ' number-ball-match' : ''}">${String(n).padStart(2, '0')}</span>`;
+        }).join('')}
+                            </div>
+                            <span style="font-weight:700;color:${matchColor}">${r.matched}/6 số trúng</span>
+                            <span class="text-secondary" style="font-size:0.8rem">Kỳ: ${r.draw.drawId}</span>
+                        </div>
+                    </div>`;
+    }).join('<div class="result-set-divider"></div>')}
+        </div>`;
+
     const html = `
         <section class="page active statistics-page">
             <div class="container">
                 <div class="page-header">
-                    <h1 class="page-title">Thống kê & Phân tích</h1>
-                    <p class="page-subtitle">Phân tích tần suất và xu hướng từ 100+ kỳ quay</p>
+                    <h1 class="page-title">Thống kê Dự đoán</h1>
+                    <p class="page-subtitle">Kiểm tra độ chính xác dựa trên lịch sử dự đoán đã lưu</p>
                 </div>
-                
-                <div class="stats-content">
-                    <div class="card">
-                        <h3 class="card-title">Đang phát triển...</h3>
-                        <p>Tính năng thống kê sẽ được bổ sung trong phiên bản tiếp theo.</p>
-                    </div>
-                </div>
+                ${summaryHtml}
+                ${detailHtml}
             </div>
         </section>
     `;
@@ -262,15 +395,86 @@ function loadCheckerPage() {
                 
                 <div class="checker-content">
                     <div class="card">
-                        <h3 class="card-title">Đang phát triển...</h3>
-                        <p>Tính năng kiểm tra vé sẽ được bổ sung trong phiên bản tiếp theo.</p>
+                        <div class="form-group">
+                            <label>Loại xổ số</label>
+                            <select id="checkerLotteryType" class="form-control">
+                                <option value="power655">Power 6/55</option>
+                                <option value="mega645">Mega 6/45</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Nhập 6 số của bạn</label>
+                            <div class="checker-inputs" style="display:flex;gap:0.5rem;margin-bottom:1rem">
+                                <input type="number" class="form-control check-num" min="1" max="55" placeholder="01">
+                                <input type="number" class="form-control check-num" min="1" max="55" placeholder="02">
+                                <input type="number" class="form-control check-num" min="1" max="55" placeholder="03">
+                                <input type="number" class="form-control check-num" min="1" max="55" placeholder="04">
+                                <input type="number" class="form-control check-num" min="1" max="55" placeholder="05">
+                                <input type="number" class="form-control check-num" min="1" max="55" placeholder="06">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary w-100" onclick="runChecker()">Kiểm tra kết quả</button>
                     </div>
+                    
+                    <div id="checkerResults" style="margin-top:2rem"></div>
                 </div>
             </div>
         </section>
     `;
 
     document.getElementById('dynamicContent').innerHTML = html;
+    window.runChecker = runChecker;
+}
+
+function runChecker() {
+    const type = document.getElementById('checkerLotteryType').value;
+    const inputs = Array.from(document.querySelectorAll('.check-num')).map(i => parseInt(i.value)).filter(n => !isNaN(n));
+
+    if (inputs.length < 6) {
+        showNotification('Vui lòng nhập đủ 6 số', 'error');
+        return;
+    }
+
+    if (!window.HistoricalData || !window.HistoricalData[type]) {
+        showNotification('Không có dữ liệu lịch sử', 'error');
+        return;
+    }
+
+    const results = window.HistoricalData[type].results;
+    const matches = results.map(draw => {
+        const matched = inputs.filter(n => draw.numbers.includes(n));
+        return { draw, matched: matched.length };
+    }).filter(m => m.matched >= 2)
+        .sort((a, b) => b.matched - a.matched || new Date(b.draw.timestamp) - new Date(a.draw.timestamp));
+
+    const resultsContainer = document.getElementById('checkerResults');
+    if (matches.length === 0) {
+        resultsContainer.innerHTML = '<div class="card"><p>Không tìm thấy kết quả trùng khớp từ 2 số trở lên.</p></div>';
+        return;
+    }
+
+    resultsContainer.innerHTML = `
+        <div class="card">
+            <h3 class="card-title">Kết quả đối soát (${matches.length} kỳ quay trùng)</h3>
+            <div class="checker-results-list">
+                ${matches.map(m => `
+                    <div class="checker-result-row">
+                        <div class="checker-draw-info">
+                            <span class="badge">${m.draw.drawId}</span>
+                            <span class="text-secondary">${new Date(m.draw.timestamp).toLocaleDateString('vi-VN')}</span>
+                            <span class="badge-match badge">${m.matched}/6 số trùng</span>
+                        </div>
+                        <div style="display:flex;gap:0.4rem;margin-top:0.5rem">
+                            ${m.draw.numbers.map(n => {
+        const isMatch = inputs.includes(n);
+        return `<span class="number-ball number-ball-sm ${isMatch ? 'number-ball-match' : ''}">${String(n).padStart(2, '0')}</span>`;
+    }).join('')}
+                        </div>
+                    </div>
+                `).join('<div class="result-set-divider"></div>')}
+            </div>
+        </div>
+    `;
 }
 
 function loadHistoryPage() {
@@ -359,102 +563,113 @@ function displayPredictionResults(results) {
         return;
     }
 
-    const html = results.map((result, index) => `
-        <div class="prediction-result card">
+    // Auto-save all generated predictions
+    results.forEach(result => {
+        AppState.predictions.unshift(result);
+    });
+    if (AppState.predictions.length > 50) {
+        AppState.predictions = AppState.predictions.slice(0, 50);
+    }
+    try {
+        localStorage.setItem('predictions', JSON.stringify(AppState.predictions));
+    } catch (e) {
+        console.error('Lỗi lưu localStorage:', e);
+    }
+
+    // Render all sets inside ONE card
+    const setsHtml = results.map((result, index) => `
+        <div class="result-set-row">
+            <div class="result-set-label">
+                <span class="result-set-index">#${index + 1}</span>
+                <div class="score-badge ${getScoreClass(result.score)} score-inline">
+                    <span class="score-value-sm">${result.score}</span>
+                    <span class="score-label-sm">pt</span>
+                </div>
+            </div>
+            <div class="numbers-display numbers-display-compact">
+                ${result.numbers.map(num => `<span class="number-ball number-ball-sm">${num.toString().padStart(2, '0')}</span>`).join('')}
+            </div>
+            <button class="btn btn-icon" title="Sao chép" onclick="copyNumbersSet(${index})">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                </svg>
+            </button>
+        </div>
+    `).join('<div class="result-set-divider"></div>');
+
+    // Analysis from first (best) result
+    const best = results[0];
+    const analysisHtml = `
+        <div class="analysis-section" style="margin-top:1.5rem">
+            <h4 class="analysis-title">Phân tích bộ số #1 (tốt nhất)</h4>
+            <div class="analysis-grid">
+                <div class="analysis-item">
+                    <div class="analysis-label">Chẵn/Lẻ</div>
+                    <div class="analysis-value">${best.analysis.evenOdd.even} chẵn - ${best.analysis.evenOdd.odd} lẻ</div>
+                    <div class="analysis-score">${best.analysis.evenOddScore}/20 điểm</div>
+                </div>
+                <div class="analysis-item">
+                    <div class="analysis-label">Cao/Thấp</div>
+                    <div class="analysis-value">${best.analysis.lowHigh.low} thấp - ${best.analysis.lowHigh.high} cao</div>
+                    <div class="analysis-score">${best.analysis.lowHighScore}/20 điểm</div>
+                </div>
+                <div class="analysis-item">
+                    <div class="analysis-label">Tổng số</div>
+                    <div class="analysis-value">${best.analysis.sum}</div>
+                    <div class="analysis-score">${best.analysis.sumScore}/15 điểm</div>
+                </div>
+                <div class="analysis-item">
+                    <div class="analysis-label">Số liên tiếp</div>
+                    <div class="analysis-value">${best.analysis.hasConsecutive ? 'Có' : 'Không'}</div>
+                    <div class="analysis-score">${best.analysis.consecutiveScore}/10 điểm</div>
+                </div>
+                <div class="analysis-item">
+                    <div class="analysis-label">Phân bố</div>
+                    <div class="analysis-value">${best.analysis.isBalanced ? 'Cân bằng' : 'Chưa tối ưu'}</div>
+                    <div class="analysis-score">${best.analysis.distributionScore}/10 điểm</div>
+                </div>
+                <div class="analysis-item">
+                    <div class="analysis-label">Tránh mô hình</div>
+                    <div class="analysis-value">${best.analysis.avoidsPatterns ? 'Tốt' : 'Cần cải thiện'}</div>
+                    <div class="analysis-score">${best.analysis.patternScore}/10 điểm</div>
+                </div>
+            </div>
+        </div>`;
+
+    const html = `
+        <div class="card prediction-result">
             <div class="result-header">
-                <h3>Bộ số #${index + 1}</h3>
-                <div class="score-badge ${getScoreClass(result.score)}">
-                    <div class="score-value">${result.score}</div>
+                <div>
+                    <h3>${results.length} bộ số dự đoán</h3>
+                    <p class="text-secondary" style="font-size:0.875rem;margin-top:0.25rem">
+                        Chiến lược: ${results[0].strategy} &bull; Đã lưu tự động
+                    </p>
+                </div>
+                <div class="score-badge ${getScoreClass(best.score)}">
+                    <div class="score-value">${best.score}</div>
                     <div class="score-label">AI Score</div>
                 </div>
             </div>
-            
-            <div class="numbers-display">
-                ${result.numbers.map(num => `
-                    <div class="number-ball">
-                        <span class="number">${num.toString().padStart(2, '0')}</span>
-                    </div>
-                `).join('')}
+            <div class="results-sets-container">
+                ${setsHtml}
             </div>
-            
-            <div class="result-meta">
-                <div class="meta-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
-                    </svg>
-                    <span>${result.strategy}</span>
-                </div>
-                <div class="meta-item">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"/>
-                        <polyline points="12 6 12 12 16 14"/>
-                    </svg>
-                    <span>${new Date(result.timestamp).toLocaleTimeString('vi-VN')}</span>
-                </div>
-            </div>
-            
-            <div class="analysis-section">
-                <h4 class="analysis-title">Phân tích chi tiết</h4>
-                <div class="analysis-grid">
-                    <div class="analysis-item">
-                        <div class="analysis-label">Chẵn/Lẻ</div>
-                        <div class="analysis-value">${result.analysis.evenOdd.even} chẵn - ${result.analysis.evenOdd.odd} lẻ</div>
-                        <div class="analysis-score">${result.analysis.evenOddScore}/20 điểm</div>
-                    </div>
-                    <div class="analysis-item">
-                        <div class="analysis-label">Cao/Thấp</div>
-                        <div class="analysis-value">${result.analysis.lowHigh.low} thấp - ${result.analysis.lowHigh.high} cao</div>
-                        <div class="analysis-score">${result.analysis.lowHighScore}/20 điểm</div>
-                    </div>
-                    <div class="analysis-item">
-                        <div class="analysis-label">Tổng số</div>
-                        <div class="analysis-value">${result.analysis.sum}</div>
-                        <div class="analysis-score">${result.analysis.sumScore}/15 điểm</div>
-                    </div>
-                    <div class="analysis-item">
-                        <div class="analysis-label">Số liên tiếp</div>
-                        <div class="analysis-value">${result.analysis.hasConsecutive ? 'Có' : 'Không'}</div>
-                        <div class="analysis-score">${result.analysis.consecutiveScore}/15 điểm</div>
-                    </div>
-                    <div class="analysis-item">
-                        <div class="analysis-label">Phân bố</div>
-                        <div class="analysis-value">${result.analysis.isBalanced ? 'Cân bằng' : 'Chưa tối ưu'}</div>
-                        <div class="analysis-score">${result.analysis.distributionScore}/10 điểm</div>
-                    </div>
-                    <div class="analysis-item">
-                        <div class="analysis-label">Tránh mô hình</div>
-                        <div class="analysis-value">${result.analysis.avoidsPatterns ? 'Tốt' : 'Cần cải thiện'}</div>
-                        <div class="analysis-score">${result.analysis.patternScore}/10 điểm</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="result-actions">
-                <button class="btn btn-primary" onclick="savePrediction(${index})">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
-                        <polyline points="17 21 17 13 7 13 7 21"/>
-                        <polyline points="7 3 7 8 15 8"/>
-                    </svg>
-                    Lưu dự đoán
-                </button>
-                <button class="btn btn-secondary" onclick="copyNumbers(${index})">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
-                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-                    </svg>
-                    Sao chép
-                </button>
-            </div>
-        </div>
-    `).join('');
+            ${results.length > 0 ? analysisHtml : ''}
+        </div>`;
 
     resultsContainer.innerHTML = html;
-
-    // Store results temporarily for save/copy functions
     window.currentPredictions = results;
 }
+
+function copyNumbersSet(index) {
+    if (!window.currentPredictions || !window.currentPredictions[index]) return;
+    const nums = window.currentPredictions[index].numbers.map(n => String(n).padStart(2, '0')).join(' - ');
+    navigator.clipboard.writeText(nums).then(() => {
+        showNotification('Đã sao chép bộ số #' + (index + 1) + '!', 'success');
+    });
+}
+
+window.copyNumbersSet = copyNumbersSet;
 
 function savePrediction(index) {
     if (!window.currentPredictions || !window.currentPredictions[index]) {
