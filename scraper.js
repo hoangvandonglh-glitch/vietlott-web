@@ -97,6 +97,19 @@ function fetchHtml(url) {
     });
 }
 
+// Helper to fetch HTML with retry
+async function fetchHtmlWithRetry(url, retries = 3) {
+    for (let i = 0; i < retries; i++) {
+        try {
+            return await fetchHtml(url);
+        } catch (error) {
+            if (i === retries - 1) throw error;
+            console.log(`⚠️ Retry ${i + 1}/${retries} for ${url}...`);
+            await delay(2000 * (i + 1));
+        }
+    }
+}
+
 // Parse HTML to get result
 function parseResult(html, lotteryType, date) {
     try {
@@ -243,7 +256,7 @@ async function crawlLottery(key) {
             process.stdout.write(`Fetching ${dateStr}... `);
 
             try {
-                const response = await fetchHtml(url);
+                const response = await fetchHtmlWithRetry(url);
 
                 if (response.redirect) {
                     console.log(`❌ Skipped (Redirects to ${response.location})`);
@@ -277,8 +290,8 @@ async function crawlLottery(key) {
                 }
             }
 
-            // Random delay 1500ms - 3500ms
-            await delay(1500 + Math.random() * 2000);
+            // Random delay 3000ms - 7000ms
+            await delay(3000 + Math.random() * 4000);
         }
 
         // Go back 1 day

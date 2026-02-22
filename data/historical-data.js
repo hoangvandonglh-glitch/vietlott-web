@@ -1,150 +1,30 @@
 
 // Auto-generated historical data from scraper (Real Data)
 // Source: minhngoc.net.vn
-// Last updated: 2026-02-22T02:39:31.249Z
+// Last updated: 2026-02-22T02:56:13.209Z
 
 window.HistoricalData = {
     power655: {
   "lotteryType": "power655",
   "lotteryName": "Power 6/55",
-  "lastUpdated": "2026-02-22T02:32:31.344Z",
+  "lastUpdated": "2026-02-22T02:46:52.111Z",
   "totalDraws": 50,
   "results": [
     {
-      "drawId": "P655-20251025",
-      "date": "20251025",
-      "dayOfWeek": "T7",
-      "numbers": [
-        3,
-        5,
-        11,
-        13,
-        24,
-        27
-      ],
-      "specialNumber": 45,
-      "jackpot1": 41488510800,
-      "jackpot2": 4095809200,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-25T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251023",
-      "date": "20251023",
-      "dayOfWeek": "T5",
-      "numbers": [
-        8,
-        10,
-        21,
-        48,
-        49,
-        50
-      ],
-      "specialNumber": 40,
-      "jackpot1": 39936636300,
-      "jackpot2": 3923378700,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-23T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251021",
-      "date": "20251021",
-      "dayOfWeek": "T3",
-      "numbers": [
-        3,
-        11,
-        12,
-        14,
-        22,
-        40
-      ],
-      "specialNumber": 41,
-      "jackpot1": 37705495800,
-      "jackpot2": 3675474200,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-21T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251018",
-      "date": "20251018",
+      "drawId": "P655-20260221",
+      "date": "20260221",
       "dayOfWeek": "T7",
       "numbers": [
         5,
-        16,
-        19,
-        21,
-        38,
-        43
-      ],
-      "specialNumber": 50,
-      "jackpot1": 36097198950,
-      "jackpot2": 3496774550,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-18T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251016",
-      "date": "20251016",
-      "dayOfWeek": "T5",
-      "numbers": [
-        14,
-        15,
-        24,
+        7,
         26,
-        27,
+        30,
+        41,
         45
-      ],
-      "specialNumber": 36,
-      "jackpot1": 34989782700,
-      "jackpot2": 3373728300,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-16T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251014",
-      "date": "20251014",
-      "dayOfWeek": "T3",
-      "numbers": [
-        8,
-        9,
-        16,
-        26,
-        37,
-        55
       ],
       "specialNumber": 12,
-      "jackpot1": 33287273850,
-      "jackpot2": 3184560650,
+      "jackpot1": 66543126150,
+      "jackpot2": 4142528350,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -152,119 +32,47 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-10-14T02:32:31.347Z"
+      "timestamp": "2026-02-21T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20251011",
-      "date": "20251011",
-      "dayOfWeek": "T7",
-      "numbers": [
-        3,
-        7,
-        26,
-        43,
-        44,
-        46
-      ],
-      "specialNumber": 25,
-      "jackpot1": 31626228000,
-      "jackpot2": 3564418400,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-11T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251009",
-      "date": "20251009",
-      "dayOfWeek": "T5",
-      "numbers": [
-        7,
-        11,
-        21,
-        22,
-        39,
-        42
-      ],
-      "specialNumber": 40,
-      "jackpot1": 36773066100,
-      "jackpot2": 3383726400,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-09T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251007",
-      "date": "20251007",
-      "dayOfWeek": "T3",
-      "numbers": [
-        19,
-        22,
-        35,
-        37,
-        43,
-        45
-      ],
-      "specialNumber": 29,
-      "jackpot1": 35025141900,
-      "jackpot2": 3189512600,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-07T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251004",
-      "date": "20251004",
-      "dayOfWeek": "T7",
-      "numbers": [
-        22,
-        33,
-        35,
-        36,
-        38,
-        40
-      ],
-      "specialNumber": 7,
-      "jackpot1": 33319528500,
-      "jackpot2": 3192409200,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-10-04T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20251002",
-      "date": "20251002",
+      "drawId": "P655-20260219",
+      "date": "20260219",
       "dayOfWeek": "T5",
       "numbers": [
         1,
-        2,
-        20,
-        24,
         27,
+        30,
+        43,
+        45,
+        46
+      ],
+      "specialNumber": 48,
+      "jackpot1": 66543126150,
+      "jackpot2": 4142528350,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-19T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260217",
+      "date": "20260217",
+      "dayOfWeek": "T3",
+      "numbers": [
+        2,
+        13,
+        26,
+        32,
+        36,
         42
       ],
-      "specialNumber": 43,
-      "jackpot1": 31587845700,
-      "jackpot2": 3176427300,
+      "specialNumber": 48,
+      "jackpot1": 62316078150,
+      "jackpot2": 3672856350,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -272,143 +80,71 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-10-02T02:32:31.347Z"
+      "timestamp": "2026-02-17T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250930",
-      "date": "20250930",
-      "dayOfWeek": "T3",
-      "numbers": [
-        17,
-        23,
-        34,
-        39,
-        46,
-        52
-      ],
-      "specialNumber": 8,
-      "jackpot1": 179058846000,
-      "jackpot2": 3750401025,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-30T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250927",
-      "date": "20250927",
+      "drawId": "P655-20260214",
+      "date": "20260214",
       "dayOfWeek": "T7",
-      "numbers": [
-        8,
-        13,
-        19,
-        24,
-        39,
-        46
-      ],
-      "specialNumber": 1,
-      "jackpot1": 170181303150,
-      "jackpot2": 6514408400,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-27T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250925",
-      "date": "20250925",
-      "dayOfWeek": "T5",
-      "numbers": [
-        5,
-        17,
-        30,
-        31,
-        38,
-        53
-      ],
-      "specialNumber": 8,
-      "jackpot1": 162106874400,
-      "jackpot2": 5617249650,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-25T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250923",
-      "date": "20250923",
-      "dayOfWeek": "T3",
-      "numbers": [
-        8,
-        18,
-        19,
-        34,
-        41,
-        46
-      ],
-      "specialNumber": 38,
-      "jackpot1": 152898886650,
-      "jackpot2": 4594139900,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-23T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250920",
-      "date": "20250920",
-      "dayOfWeek": "T7",
-      "numbers": [
-        8,
-        13,
-        14,
-        19,
-        36,
-        43
-      ],
-      "specialNumber": 30,
-      "jackpot1": 143697475200,
-      "jackpot2": 3571760850,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-20T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250918",
-      "date": "20250918",
-      "dayOfWeek": "T5",
       "numbers": [
         2,
-        3,
+        13,
+        26,
+        32,
+        36,
+        42
+      ],
+      "specialNumber": 48,
+      "jackpot1": 62316078150,
+      "jackpot2": 3672856350,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-14T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260212",
+      "date": "20260212",
+      "dayOfWeek": "T5",
+      "numbers": [
         8,
-        27,
-        38,
+        17,
+        19,
+        31,
+        32,
+        46
+      ],
+      "specialNumber": 26,
+      "jackpot1": 59534608350,
+      "jackpot2": 3363804150,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-02-12T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260210",
+      "date": "20260210",
+      "dayOfWeek": "T3",
+      "numbers": [
+        13,
+        21,
+        22,
+        26,
+        32,
         55
       ],
       "specialNumber": 20,
-      "jackpot1": 138551627550,
-      "jackpot2": 3626295150,
+      "jackpot1": 56260371000,
+      "jackpot2": 4363958700,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -416,47 +152,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-09-18T02:32:31.347Z"
+      "timestamp": "2026-02-10T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250916",
-      "date": "20250916",
-      "dayOfWeek": "T3",
-      "numbers": [
-        17,
-        19,
-        28,
-        39,
-        43,
-        53
-      ],
-      "specialNumber": 33,
-      "jackpot1": 132914971200,
-      "jackpot2": 6162341000,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-16T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250913",
-      "date": "20250913",
+      "drawId": "P655-20260207",
+      "date": "20260207",
       "dayOfWeek": "T7",
       "numbers": [
-        2,
-        7,
+        3,
+        5,
+        13,
         15,
-        18,
-        24,
-        27
+        29,
+        46
       ],
-      "specialNumber": 45,
-      "jackpot1": 124998778200,
-      "jackpot2": 5282764000,
+      "specialNumber": 1,
+      "jackpot1": 52944733200,
+      "jackpot2": 3995554500,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -464,23 +176,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-09-13T02:32:31.347Z"
+      "timestamp": "2026-02-07T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250911",
-      "date": "20250911",
+      "drawId": "P655-20260205",
+      "date": "20260205",
       "dayOfWeek": "T5",
       "numbers": [
-        6,
+        7,
+        13,
         16,
-        46,
-        49,
-        51,
+        25,
+        26,
         55
       ],
-      "specialNumber": 42,
-      "jackpot1": 118117411500,
-      "jackpot2": 4518167700,
+      "specialNumber": 9,
+      "jackpot1": 50209887000,
+      "jackpot2": 3691682700,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -488,23 +200,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-09-11T02:32:31.347Z"
+      "timestamp": "2026-02-05T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250909",
-      "date": "20250909",
+      "drawId": "P655-20260203",
+      "date": "20260203",
       "dayOfWeek": "T3",
       "numbers": [
-        16,
-        20,
-        21,
-        31,
-        40,
-        52
+        12,
+        15,
+        18,
+        22,
+        48,
+        53
       ],
-      "specialNumber": 2,
-      "jackpot1": 110073962550,
-      "jackpot2": 3624451150,
+      "specialNumber": 45,
+      "jackpot1": 47302210650,
+      "jackpot2": 3368607550,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -512,47 +224,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-09-09T02:32:31.347Z"
+      "timestamp": "2026-02-03T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250906",
-      "date": "20250906",
+      "drawId": "P655-20260131",
+      "date": "20260131",
       "dayOfWeek": "T7",
       "numbers": [
-        9,
+        10,
         11,
-        19,
-        22,
-        34,
-        43
-      ],
-      "specialNumber": 31,
-      "jackpot1": 104453902200,
-      "jackpot2": 2437468725,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-06T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250904",
-      "date": "20250904",
-      "dayOfWeek": "T5",
-      "numbers": [
-        9,
-        19,
-        23,
-        42,
+        14,
+        17,
         49,
         53
       ],
-      "specialNumber": 40,
-      "jackpot1": 97840187850,
-      "jackpot2": 4140080300,
+      "specialNumber": 4,
+      "jackpot1": 43984742700,
+      "jackpot2": 20094162200,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -560,71 +248,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-09-04T02:32:31.347Z"
+      "timestamp": "2026-01-31T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250902",
-      "date": "20250902",
-      "dayOfWeek": "T3",
-      "numbers": [
-        9,
-        16,
-        22,
-        25,
-        30,
-        51
-      ],
-      "specialNumber": 43,
-      "jackpot1": 91324162650,
-      "jackpot2": 3416077500,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-09-02T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250830",
-      "date": "20250830",
-      "dayOfWeek": "T7",
-      "numbers": [
-        2,
-        17,
-        19,
-        24,
-        30,
-        44
-      ],
-      "specialNumber": 34,
-      "jackpot1": 87579465150,
-      "jackpot2": 4616598500,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-30T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250828",
-      "date": "20250828",
+      "drawId": "P655-20260129",
+      "date": "20260129",
       "dayOfWeek": "T5",
       "numbers": [
-        6,
-        13,
-        28,
-        30,
-        35,
-        52
+        11,
+        15,
+        22,
+        32,
+        34,
+        54
       ],
-      "specialNumber": 50,
-      "jackpot1": 82146504900,
-      "jackpot2": 4012936250,
+      "specialNumber": 28,
+      "jackpot1": 40895356350,
+      "jackpot2": 19750897050,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -632,23 +272,143 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-08-28T02:32:31.347Z"
+      "timestamp": "2026-01-29T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250826",
-      "date": "20250826",
+      "drawId": "P655-20260127",
+      "date": "20260127",
       "dayOfWeek": "T3",
       "numbers": [
+        13,
         22,
+        32,
+        42,
+        53,
+        54
+      ],
+      "specialNumber": 29,
+      "jackpot1": 38390740500,
+      "jackpot2": 19472606400,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-27T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260124",
+      "date": "20260124",
+      "dayOfWeek": "T7",
+      "numbers": [
+        14,
+        24,
+        25,
         30,
-        38,
-        44,
+        35,
+        53
+      ],
+      "specialNumber": 18,
+      "jackpot1": 35167297350,
+      "jackpot2": 19114446050,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-24T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260122",
+      "date": "20260122",
+      "dayOfWeek": "T5",
+      "numbers": [
+        2,
+        20,
+        21,
+        29,
+        36,
+        50
+      ],
+      "specialNumber": 5,
+      "jackpot1": 32706781950,
+      "jackpot2": 18841055450,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-22T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260120",
+      "date": "20260120",
+      "dayOfWeek": "T3",
+      "numbers": [
+        4,
+        20,
+        26,
+        28,
+        37,
+        41
+      ],
+      "specialNumber": 32,
+      "jackpot1": 257134188450,
+      "jackpot2": 18540301900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-20T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260117",
+      "date": "20260117",
+      "dayOfWeek": "T7",
+      "numbers": [
+        14,
+        21,
+        23,
+        25,
+        46,
+        48
+      ],
+      "specialNumber": 54,
+      "jackpot1": 241138005600,
+      "jackpot2": 16762948250,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-17T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260115",
+      "date": "20260115",
+      "dayOfWeek": "T5",
+      "numbers": [
+        13,
+        21,
+        31,
+        34,
         48,
         55
       ],
-      "specialNumber": 5,
-      "jackpot1": 79666261500,
-      "jackpot2": 3737353650,
+      "specialNumber": 27,
+      "jackpot1": 226463116350,
+      "jackpot2": 15132405000,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -656,23 +416,47 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-08-26T02:32:31.347Z"
+      "timestamp": "2026-01-15T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250823",
-      "date": "20250823",
+      "drawId": "P655-20260113",
+      "date": "20260113",
+      "dayOfWeek": "T3",
+      "numbers": [
+        3,
+        12,
+        25,
+        51,
+        52,
+        55
+      ],
+      "specialNumber": 43,
+      "jackpot1": 213555593550,
+      "jackpot2": 13698235800,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-13T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260110",
+      "date": "20260110",
       "dayOfWeek": "T7",
       "numbers": [
-        1,
         9,
-        26,
+        16,
+        30,
+        33,
         34,
-        44,
-        50
+        38
       ],
-      "specialNumber": 52,
-      "jackpot1": 76136581650,
-      "jackpot2": 3345167000,
+      "specialNumber": 49,
+      "jackpot1": 199827244650,
+      "jackpot2": 12172863700,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -680,23 +464,215 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-08-23T02:32:31.347Z"
+      "timestamp": "2026-01-10T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250821",
-      "date": "20250821",
+      "drawId": "P655-20260108",
+      "date": "20260108",
+      "dayOfWeek": "T5",
+      "numbers": [
+        20,
+        22,
+        36,
+        43,
+        45,
+        50
+      ],
+      "specialNumber": 47,
+      "jackpot1": 188047526250,
+      "jackpot2": 10864006100,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-08T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260106",
+      "date": "20260106",
+      "dayOfWeek": "T3",
+      "numbers": [
+        22,
+        28,
+        29,
+        30,
+        34,
+        47
+      ],
+      "specialNumber": 20,
+      "jackpot1": 176547951300,
+      "jackpot2": 9586275550,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-06T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260103",
+      "date": "20260103",
+      "dayOfWeek": "T7",
+      "numbers": [
+        10,
+        16,
+        17,
+        23,
+        33,
+        36
+      ],
+      "specialNumber": 42,
+      "jackpot1": 164499610350,
+      "jackpot2": 8247571000,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-03T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20260101",
+      "date": "20260101",
       "dayOfWeek": "T5",
       "numbers": [
         5,
-        9,
-        17,
+        16,
+        29,
+        33,
+        39,
+        42
+      ],
+      "specialNumber": 54,
+      "jackpot1": 153894010350,
+      "jackpot2": 7069171000,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2026-01-01T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251230",
+      "date": "20251230",
+      "dayOfWeek": "T3",
+      "numbers": [
+        11,
+        30,
+        35,
+        41,
+        48,
+        55
+      ],
+      "specialNumber": 38,
+      "jackpot1": 144058214100,
+      "jackpot2": 5976304750,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-30T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251227",
+      "date": "20251227",
+      "dayOfWeek": "T7",
+      "numbers": [
+        16,
+        21,
+        30,
+        37,
+        39,
+        40
+      ],
+      "specialNumber": 13,
+      "jackpot1": 133260892500,
+      "jackpot2": 4776602350,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-27T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251225",
+      "date": "20251225",
+      "dayOfWeek": "T5",
+      "numbers": [
+        4,
+        6,
+        32,
+        37,
+        40,
+        48
+      ],
+      "specialNumber": 38,
+      "jackpot1": 123854457900,
+      "jackpot2": 3731442950,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-25T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251223",
+      "date": "20251223",
+      "dayOfWeek": "T3",
+      "numbers": [
+        2,
+        10,
+        16,
+        25,
+        32,
+        38
+      ],
+      "specialNumber": 3,
+      "jackpot1": 117271471350,
+      "jackpot2": 4177330300,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-23T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251220",
+      "date": "20251220",
+      "dayOfWeek": "T7",
+      "numbers": [
+        22,
+        32,
+        33,
         35,
         40,
         41
       ],
-      "specialNumber": 44,
-      "jackpot1": 73030078650,
-      "jackpot2": 1627029250,
+      "specialNumber": 23,
+      "jackpot1": 115627287900,
+      "jackpot2": 3994643250,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -704,287 +680,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-08-21T02:32:31.347Z"
+      "timestamp": "2025-12-20T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250819",
-      "date": "20250819",
-      "dayOfWeek": "T3",
-      "numbers": [
-        1,
-        14,
-        31,
-        34,
-        36,
-        47
-      ],
-      "specialNumber": 45,
-      "jackpot1": 70743552150,
-      "jackpot2": 3386081250,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-19T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250816",
-      "date": "20250816",
-      "dayOfWeek": "T7",
-      "numbers": [
-        14,
-        23,
-        32,
-        36,
-        47,
-        48
-      ],
-      "specialNumber": 5,
-      "jackpot1": 67268820900,
-      "jackpot2": 890133863,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-16T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250814",
-      "date": "20250814",
+      "drawId": "P655-20251218",
+      "date": "20251218",
       "dayOfWeek": "T5",
-      "numbers": [
-        6,
-        10,
-        17,
-        18,
-        32,
-        35
-      ],
-      "specialNumber": 53,
-      "jackpot1": 64599673800,
-      "jackpot2": 3263963550,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-14T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250812",
-      "date": "20250812",
-      "dayOfWeek": "T3",
-      "numbers": [
-        1,
-        6,
-        24,
-        37,
-        40,
-        55
-      ],
-      "specialNumber": 10,
-      "jackpot1": 62224001850,
-      "jackpot2": 3934551350,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-12T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250809",
-      "date": "20250809",
-      "dayOfWeek": "T7",
-      "numbers": [
-        5,
-        9,
-        16,
-        36,
-        43,
-        51
-      ],
-      "specialNumber": 19,
-      "jackpot1": 58984238100,
-      "jackpot2": 3574577600,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-09T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250807",
-      "date": "20250807",
-      "dayOfWeek": "T5",
-      "numbers": [
-        6,
-        24,
-        31,
-        32,
-        39,
-        48
-      ],
-      "specialNumber": 52,
-      "jackpot1": 56313287400,
-      "jackpot2": 3277805300,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-07T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250805",
-      "date": "20250805",
-      "dayOfWeek": "T3",
-      "numbers": [
-        8,
-        41,
-        45,
-        51,
-        52,
-        53
-      ],
-      "specialNumber": 31,
-      "jackpot1": 53813039700,
-      "jackpot2": 3320389450,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-05T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250802",
-      "date": "20250802",
-      "dayOfWeek": "T7",
       "numbers": [
         12,
-        24,
-        29,
-        33,
-        34,
-        35
-      ],
-      "specialNumber": 47,
-      "jackpot1": 50929534650,
-      "jackpot2": 4137610150,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-08-02T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250731",
-      "date": "20250731",
-      "dayOfWeek": "T5",
-      "numbers": [
-        5,
-        17,
-        31,
-        42,
-        46,
-        49
-      ],
-      "specialNumber": 37,
-      "jackpot1": 48494261550,
-      "jackpot2": 3867024250,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-07-31T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250729",
-      "date": "20250729",
-      "dayOfWeek": "T3",
-      "numbers": [
-        4,
-        8,
-        23,
-        43,
-        45,
-        51
-      ],
-      "specialNumber": 48,
-      "jackpot1": 46027096050,
-      "jackpot2": 3592894750,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-07-29T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250726",
-      "date": "20250726",
-      "dayOfWeek": "T7",
-      "numbers": [
-        5,
-        26,
-        28,
-        29,
-        33,
-        54
-      ],
-      "specialNumber": 34,
-      "jackpot1": 43206543300,
-      "jackpot2": 3279500000,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-07-26T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250724",
-      "date": "20250724",
-      "dayOfWeek": "T5",
-      "numbers": [
-        5,
-        10,
-        24,
+        14,
         29,
         30,
-        34
+        39,
+        55
       ],
-      "specialNumber": 45,
-      "jackpot1": 40691043300,
-      "jackpot2": 4187893700,
+      "specialNumber": 50,
+      "jackpot1": 110723398050,
+      "jackpot2": 3449766600,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -992,23 +704,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-24T02:32:31.347Z"
+      "timestamp": "2025-12-18T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250722",
-      "date": "20250722",
+      "drawId": "P655-20251216",
+      "date": "20251216",
       "dayOfWeek": "T3",
       "numbers": [
-        9,
-        10,
-        15,
-        28,
-        33,
-        44
+        7,
+        36,
+        37,
+        38,
+        52,
+        55
       ],
-      "specialNumber": 22,
-      "jackpot1": 38667639450,
-      "jackpot2": 3963071050,
+      "specialNumber": 46,
+      "jackpot1": 106675498650,
+      "jackpot2": 3870275450,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1016,23 +728,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-22T02:32:31.347Z"
+      "timestamp": "2025-12-16T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250719",
-      "date": "20250719",
+      "drawId": "P655-20251213",
+      "date": "20251213",
       "dayOfWeek": "T7",
       "numbers": [
+        5,
         8,
-        9,
+        12,
+        18,
         20,
-        36,
-        39,
-        44
+        38
       ],
-      "specialNumber": 28,
-      "jackpot1": 36575526450,
-      "jackpot2": 3730614050,
+      "specialNumber": 52,
+      "jackpot1": 101125122150,
+      "jackpot2": 3253566950,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1040,23 +752,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-19T02:32:31.347Z"
+      "timestamp": "2025-12-13T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250717",
-      "date": "20250717",
+      "drawId": "P655-20251211",
+      "date": "20251211",
       "dayOfWeek": "T5",
       "numbers": [
+        9,
         13,
-        18,
-        33,
-        40,
+        21,
+        45,
         48,
-        53
+        55
       ],
-      "specialNumber": 54,
-      "jackpot1": 34913854650,
-      "jackpot2": 3545983850,
+      "specialNumber": 38,
+      "jackpot1": 98843019600,
+      "jackpot2": 4619585500,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1064,23 +776,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-17T02:32:31.347Z"
+      "timestamp": "2025-12-11T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250715",
-      "date": "20250715",
+      "drawId": "P655-20251209",
+      "date": "20251209",
       "dayOfWeek": "T3",
       "numbers": [
-        18,
+        14,
+        21,
         26,
+        27,
         31,
-        32,
-        36,
-        48
+        43
       ],
-      "specialNumber": 30,
-      "jackpot1": 32585071800,
-      "jackpot2": 3287230200,
+      "specialNumber": 42,
+      "jackpot1": 94702633950,
+      "jackpot2": 4159542650,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1088,47 +800,47 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-15T02:32:31.347Z"
+      "timestamp": "2025-12-09T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250712",
-      "date": "20250712",
+      "drawId": "P655-20251206",
+      "date": "20251206",
       "dayOfWeek": "T7",
-      "numbers": [
-        2,
-        34,
-        39,
-        41,
-        45,
-        52
-      ],
-      "specialNumber": 51,
-      "jackpot1": 344987346900,
-      "jackpot2": 3999297050,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-07-12T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250710",
-      "date": "20250710",
-      "dayOfWeek": "T5",
       "numbers": [
         12,
-        33,
+        26,
         34,
-        42,
+        37,
+        50,
+        52
+      ],
+      "specialNumber": 15,
+      "jackpot1": 91214740200,
+      "jackpot2": 3771998900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-06T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251204",
+      "date": "20251204",
+      "dayOfWeek": "T5",
+      "numbers": [
+        10,
+        29,
+        32,
+        33,
         44,
         53
       ],
-      "specialNumber": 3,
-      "jackpot1": 328889332200,
-      "jackpot2": 6209925800,
+      "specialNumber": 14,
+      "jackpot1": 87887521200,
+      "jackpot2": 3402307900,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1136,23 +848,95 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-10T02:32:31.347Z"
+      "timestamp": "2025-12-04T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250708",
-      "date": "20250708",
+      "drawId": "P655-20251202",
+      "date": "20251202",
+      "dayOfWeek": "T3",
+      "numbers": [
+        16,
+        20,
+        24,
+        36,
+        51,
+        54
+      ],
+      "specialNumber": 10,
+      "jackpot1": 84266750100,
+      "jackpot2": 4695950200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-12-02T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251129",
+      "date": "20251129",
+      "dayOfWeek": "T7",
+      "numbers": [
+        4,
+        20,
+        24,
+        27,
+        40,
+        48
+      ],
+      "specialNumber": 9,
+      "jackpot1": 80418746100,
+      "jackpot2": 4268394200,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-29T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251127",
+      "date": "20251127",
+      "dayOfWeek": "T5",
+      "numbers": [
+        4,
+        5,
+        10,
+        11,
+        28,
+        35
+      ],
+      "specialNumber": 38,
+      "jackpot1": 76934411400,
+      "jackpot2": 3881245900,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-27T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251125",
+      "date": "20251125",
       "dayOfWeek": "T3",
       "numbers": [
         23,
-        24,
+        31,
         32,
         42,
-        48,
-        50
+        46,
+        48
       ],
-      "specialNumber": 31,
-      "jackpot1": 313594940100,
-      "jackpot2": 4510548900,
+      "specialNumber": 4,
+      "jackpot1": 74915017950,
+      "jackpot2": 3656868850,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1160,47 +944,23 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-08T02:32:31.347Z"
+      "timestamp": "2025-11-25T02:46:52.114Z"
     },
     {
-      "drawId": "P655-20250705",
-      "date": "20250705",
+      "drawId": "P655-20251122",
+      "date": "20251122",
       "dayOfWeek": "T7",
       "numbers": [
-        3,
-        15,
-        22,
-        45,
-        51,
-        55
-      ],
-      "specialNumber": 54,
-      "jackpot1": 300000000000,
-      "jackpot2": 32691122500,
-      "winners": {
-        "jackpot1": 0,
-        "jackpot2": 0,
-        "prize1": 0,
-        "prize2": 0,
-        "prize3": 0
-      },
-      "timestamp": "2025-07-05T02:32:31.347Z"
-    },
-    {
-      "drawId": "P655-20250703",
-      "date": "20250703",
-      "dayOfWeek": "T5",
-      "numbers": [
-        18,
+        8,
+        10,
         19,
         29,
-        31,
-        45,
-        54
+        34,
+        46
       ],
-      "specialNumber": 27,
-      "jackpot1": 311454641100,
-      "jackpot2": 4272737900,
+      "specialNumber": 14,
+      "jackpot1": 71484993300,
+      "jackpot2": 3275755000,
       "winners": {
         "jackpot1": 0,
         "jackpot2": 0,
@@ -1208,14 +968,254 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-07-03T02:32:31.347Z"
+      "timestamp": "2025-11-22T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251120",
+      "date": "20251120",
+      "dayOfWeek": "T5",
+      "numbers": [
+        3,
+        12,
+        19,
+        20,
+        31,
+        42
+      ],
+      "specialNumber": 13,
+      "jackpot1": 69003198300,
+      "jackpot2": 3587633800,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-20T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251118",
+      "date": "20251118",
+      "dayOfWeek": "T3",
+      "numbers": [
+        7,
+        12,
+        18,
+        22,
+        30,
+        49
+      ],
+      "specialNumber": 5,
+      "jackpot1": 66647263800,
+      "jackpot2": 3325863300,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-18T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251115",
+      "date": "20251115",
+      "dayOfWeek": "T7",
+      "numbers": [
+        2,
+        30,
+        33,
+        35,
+        42,
+        54
+      ],
+      "specialNumber": 45,
+      "jackpot1": 63714494100,
+      "jackpot2": 3995551950,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-15T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251113",
+      "date": "20251113",
+      "dayOfWeek": "T5",
+      "numbers": [
+        1,
+        15,
+        30,
+        38,
+        40,
+        43
+      ],
+      "specialNumber": 13,
+      "jackpot1": 60698802000,
+      "jackpot2": 3660475050,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-13T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251111",
+      "date": "20251111",
+      "dayOfWeek": "T3",
+      "numbers": [
+        11,
+        20,
+        28,
+        41,
+        47,
+        54
+      ],
+      "specialNumber": 31,
+      "jackpot1": 57859966200,
+      "jackpot2": 3345048850,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-11T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251108",
+      "date": "20251108",
+      "dayOfWeek": "T7",
+      "numbers": [
+        14,
+        16,
+        19,
+        22,
+        27,
+        44
+      ],
+      "specialNumber": 18,
+      "jackpot1": 54754526550,
+      "jackpot2": 3725477650,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-08T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251106",
+      "date": "20251106",
+      "dayOfWeek": "T5",
+      "numbers": [
+        16,
+        20,
+        29,
+        33,
+        36,
+        49
+      ],
+      "specialNumber": 6,
+      "jackpot1": 52441587750,
+      "jackpot2": 3468484450,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-06T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251104",
+      "date": "20251104",
+      "dayOfWeek": "T3",
+      "numbers": [
+        15,
+        27,
+        29,
+        31,
+        36,
+        43
+      ],
+      "specialNumber": 38,
+      "jackpot1": 50350993050,
+      "jackpot2": 3236196150,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-04T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251101",
+      "date": "20251101",
+      "dayOfWeek": "T7",
+      "numbers": [
+        7,
+        11,
+        28,
+        29,
+        31,
+        33
+      ],
+      "specialNumber": 8,
+      "jackpot1": 48225227700,
+      "jackpot2": 3492904850,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-11-01T02:46:52.114Z"
+    },
+    {
+      "drawId": "P655-20251030",
+      "date": "20251030",
+      "dayOfWeek": "T5",
+      "numbers": [
+        20,
+        23,
+        35,
+        41,
+        47,
+        55
+      ],
+      "specialNumber": 37,
+      "jackpot1": 46373178900,
+      "jackpot2": 3287121650,
+      "winners": {
+        "jackpot1": 0,
+        "jackpot2": 0,
+        "prize1": 0,
+        "prize2": 0,
+        "prize3": 0
+      },
+      "timestamp": "2025-10-30T02:46:52.114Z"
     }
   ]
 },
     mega645: {
   "lotteryType": "mega645",
   "lotteryName": "Mega 6/45",
-  "lastUpdated": "2026-02-22T02:32:31.345Z",
+  "lastUpdated": "2026-02-22T02:46:52.112Z",
   "totalDraws": 50,
   "results": [
     {
@@ -1240,7 +1240,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-20T02:37:07.495Z"
+      "timestamp": "2026-02-20T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260218",
@@ -1264,7 +1264,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-18T02:37:07.495Z"
+      "timestamp": "2026-02-18T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260215",
@@ -1288,7 +1288,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-15T02:37:07.495Z"
+      "timestamp": "2026-02-15T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260213",
@@ -1312,7 +1312,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-13T02:37:07.495Z"
+      "timestamp": "2026-02-13T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260211",
@@ -1336,7 +1336,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-11T02:37:07.495Z"
+      "timestamp": "2026-02-11T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260208",
@@ -1360,7 +1360,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-08T02:37:07.495Z"
+      "timestamp": "2026-02-08T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260206",
@@ -1384,7 +1384,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-06T02:37:07.495Z"
+      "timestamp": "2026-02-06T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260204",
@@ -1408,7 +1408,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-04T02:37:07.495Z"
+      "timestamp": "2026-02-04T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260201",
@@ -1432,7 +1432,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-01T02:37:07.495Z"
+      "timestamp": "2026-02-01T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260130",
@@ -1456,7 +1456,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-30T02:37:07.495Z"
+      "timestamp": "2026-01-30T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260128",
@@ -1480,7 +1480,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-28T02:37:07.495Z"
+      "timestamp": "2026-01-28T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260125",
@@ -1504,7 +1504,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-25T02:37:07.495Z"
+      "timestamp": "2026-01-25T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260123",
@@ -1528,7 +1528,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-23T02:37:07.495Z"
+      "timestamp": "2026-01-23T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260121",
@@ -1552,7 +1552,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-21T02:37:07.495Z"
+      "timestamp": "2026-01-21T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260118",
@@ -1576,7 +1576,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-18T02:37:07.495Z"
+      "timestamp": "2026-01-18T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260116",
@@ -1600,7 +1600,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-16T02:37:07.495Z"
+      "timestamp": "2026-01-16T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260114",
@@ -1624,7 +1624,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-14T02:37:07.495Z"
+      "timestamp": "2026-01-14T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260111",
@@ -1648,7 +1648,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-11T02:37:07.495Z"
+      "timestamp": "2026-01-11T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260109",
@@ -1672,7 +1672,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-09T02:37:07.495Z"
+      "timestamp": "2026-01-09T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260107",
@@ -1696,7 +1696,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-07T02:37:07.495Z"
+      "timestamp": "2026-01-07T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260104",
@@ -1720,7 +1720,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-04T02:37:07.495Z"
+      "timestamp": "2026-01-04T02:51:21.255Z"
     },
     {
       "drawId": "M645-20260102",
@@ -1744,7 +1744,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-02T02:37:07.495Z"
+      "timestamp": "2026-01-02T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251231",
@@ -1768,7 +1768,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-31T02:37:07.495Z"
+      "timestamp": "2025-12-31T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251228",
@@ -1792,7 +1792,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-28T02:37:07.495Z"
+      "timestamp": "2025-12-28T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251226",
@@ -1816,7 +1816,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-26T02:37:07.495Z"
+      "timestamp": "2025-12-26T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251224",
@@ -1840,7 +1840,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-24T02:37:07.495Z"
+      "timestamp": "2025-12-24T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251221",
@@ -1864,7 +1864,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-21T02:37:07.495Z"
+      "timestamp": "2025-12-21T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251219",
@@ -1888,7 +1888,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-19T02:37:07.495Z"
+      "timestamp": "2025-12-19T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251217",
@@ -1912,7 +1912,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-17T02:37:07.495Z"
+      "timestamp": "2025-12-17T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251214",
@@ -1936,7 +1936,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-14T02:37:07.495Z"
+      "timestamp": "2025-12-14T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251212",
@@ -1960,7 +1960,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-12T02:37:07.495Z"
+      "timestamp": "2025-12-12T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251210",
@@ -1984,7 +1984,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-10T02:37:07.495Z"
+      "timestamp": "2025-12-10T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251207",
@@ -2008,7 +2008,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-07T02:37:07.495Z"
+      "timestamp": "2025-12-07T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251205",
@@ -2032,7 +2032,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-05T02:37:07.495Z"
+      "timestamp": "2025-12-05T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251203",
@@ -2056,7 +2056,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-03T02:37:07.495Z"
+      "timestamp": "2025-12-03T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251130",
@@ -2080,7 +2080,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-30T02:37:07.495Z"
+      "timestamp": "2025-11-30T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251128",
@@ -2104,7 +2104,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-28T02:37:07.495Z"
+      "timestamp": "2025-11-28T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251126",
@@ -2128,7 +2128,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-26T02:37:07.495Z"
+      "timestamp": "2025-11-26T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251123",
@@ -2152,7 +2152,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-23T02:37:07.495Z"
+      "timestamp": "2025-11-23T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251121",
@@ -2176,7 +2176,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-21T02:37:07.495Z"
+      "timestamp": "2025-11-21T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251119",
@@ -2200,7 +2200,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-19T02:37:07.495Z"
+      "timestamp": "2025-11-19T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251116",
@@ -2224,7 +2224,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-16T02:37:07.495Z"
+      "timestamp": "2025-11-16T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251114",
@@ -2248,7 +2248,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-14T02:37:07.495Z"
+      "timestamp": "2025-11-14T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251112",
@@ -2272,7 +2272,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-12T02:37:07.495Z"
+      "timestamp": "2025-11-12T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251109",
@@ -2296,7 +2296,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-09T02:37:07.495Z"
+      "timestamp": "2025-11-09T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251107",
@@ -2320,7 +2320,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-07T02:37:07.495Z"
+      "timestamp": "2025-11-07T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251105",
@@ -2344,7 +2344,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-05T02:37:07.495Z"
+      "timestamp": "2025-11-05T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251102",
@@ -2368,7 +2368,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-11-02T02:37:07.495Z"
+      "timestamp": "2025-11-02T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251031",
@@ -2392,7 +2392,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-10-31T02:37:07.495Z"
+      "timestamp": "2025-10-31T02:51:21.255Z"
     },
     {
       "drawId": "M645-20251029",
@@ -2416,7 +2416,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-10-29T02:37:07.495Z"
+      "timestamp": "2025-10-29T02:51:21.255Z"
     }
   ]
 }
