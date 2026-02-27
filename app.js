@@ -320,60 +320,91 @@ function loadStatisticsPage() {
             </div>` : ''}
         </div>`;
 
-    // Detail table: last 20 predictions
-    const recent = checkedResults.slice(0, 20);
-    const detailHtml = `
-        <div class="card" style="margin-top:1.5rem">
-            <h3 class="card-title">Chi tiết ${recent.length} dự đoán gần nhất</h3>
-            ${recent.map((r, i) => {
-        const lotteryName = r.pred.lotteryType === 'power655' ? 'Power 6/55' : 'Mega 6/45';
-        const predDate = new Date(r.pred.timestamp).toLocaleString('vi-VN');
+    // Group predictions by Draw Date or Pending status
+    const groupedResults = {};
+
+    checkedResults.forEach(r => {
+        let key;
+        let displayTitle;
 
         if (r.pending) {
+            key = 'pending';
+            displayTitle = 'Đang chờ kết quả';
+        } else {
+            key = r.draw.date + '_' + r.pred.lotteryType;
+            const drawDate = new Date(r.draw.timestamp).toLocaleDateString('vi-VN');
+            const lotteryName = r.pred.lotteryType === 'power655' ? 'Power 6/55' : 'Mega 6/45';
+            displayTitle = `${lotteryName} - Kỳ quay: ${drawDate} (ID: ${r.draw.drawId})`;
+        }
+
+        if (!groupedResults[key]) {
+            groupedResults[key] = {
+                title: displayTitle,
+                isPending: r.pending,
+                items: []
+            };
+        }
+        groupedResults[key].items.push(r);
+    });
+
+    const groupedKeys = Object.keys(groupedResults).sort((a, b) => {
+        if (a === 'pending') return -1;
+        if (b === 'pending') return 1;
+        return b.localeCompare(a); // Newest draws first
+    });
+
+    let detailHtml = '';
+
+    groupedKeys.forEach(key => {
+        const group = groupedResults[key];
+        detailHtml += `
+            <div class="card" style="margin-top:1.5rem">
+                <h3 class="card-title">${group.title} (${group.items.length} bộ số)</h3>
+                ${group.items.map((r, i) => {
+            const predDate = new Date(r.pred.timestamp).toLocaleString('vi-VN');
+
+            if (r.pending) {
+                return `
+                            <div class="stat-detail-row">
+                                <div class="stat-detail-meta">
+                                    <span class="text-secondary" style="font-size:0.8rem">Dự đoán: ${predDate}</span>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:0.75rem;margin-top:0.4rem">
+                                    <div style="display:flex;gap:0.3rem">
+                                        ${r.pred.numbers.map(n => `<span class="number-ball number-ball-sm">${String(n).padStart(2, '0')}</span>`).join('')}
+                                    </div>
+                                    <span class="badge" style="background:var(--bg-secondary);color:var(--accent);border-color:var(--accent)">Chờ kết quả...</span>
+                                </div>
+                            </div>`;
+            }
+
+            const matchColor = r.matched >= 4 ? 'var(--success)' : r.matched >= 2 ? 'var(--primary)' : 'var(--text-secondary)';
+
             return `
                         <div class="stat-detail-row">
                             <div class="stat-detail-meta">
-                                <span class="badge">${lotteryName}</span>
                                 <span class="text-secondary" style="font-size:0.8rem">Dự đoán: ${predDate}</span>
                             </div>
-                            <div style="display:flex;align-items:center;gap:0.75rem;margin-top:0.4rem">
+                            <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;margin-top:0.4rem">
                                 <div style="display:flex;gap:0.3rem">
-                                    ${r.pred.numbers.map(n => `<span class="number-ball number-ball-sm">${String(n).padStart(2, '0')}</span>`).join('')}
+                                    ${r.pred.numbers.map(n => {
+                const hit = r.draw.numbers.includes(n);
+                return `<span class="number-ball number-ball-sm${hit ? ' number-ball-match' : ''}">${String(n).padStart(2, '0')}</span>`;
+            }).join('')}
                                 </div>
-                                <span class="badge" style="background:var(--bg-secondary);color:var(--accent);border-color:var(--accent)">Đang chờ kết quả...</span>
+                                <span style="font-weight:700;color:${matchColor}">${r.matched}/6 số trúng</span>
                             </div>
                         </div>`;
-        }
-
-        const drawDate = new Date(r.draw.timestamp).toLocaleDateString('vi-VN');
-        const matchColor = r.matched >= 4 ? 'var(--success)' : r.matched >= 2 ? 'var(--primary)' : 'var(--text-secondary)';
-
-        return `
-                    <div class="stat-detail-row">
-                        <div class="stat-detail-meta">
-                            <span class="badge">${lotteryName}</span>
-                            <span class="text-secondary" style="font-size:0.8rem">Dự đoán: ${predDate} → Kỳ quay: ${drawDate}</span>
-                        </div>
-                        <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;margin-top:0.4rem">
-                            <div style="display:flex;gap:0.3rem">
-                                ${r.pred.numbers.map(n => {
-            const hit = r.draw.numbers.includes(n);
-            return `<span class="number-ball number-ball-sm${hit ? ' number-ball-match' : ''}">${String(n).padStart(2, '0')}</span>`;
-        }).join('')}
-                            </div>
-                            <span style="font-weight:700;color:${matchColor}">${r.matched}/6 số trúng</span>
-                            <span class="text-secondary" style="font-size:0.8rem">Kỳ: ${r.draw.drawId}</span>
-                        </div>
-                    </div>`;
-    }).join('<div class="result-set-divider"></div>')}
-        </div>`;
+        }).join('<div class="result-set-divider"></div>')}
+            </div>`;
+    });
 
     const html = `
         <section class="page active statistics-page">
             <div class="container">
                 <div class="page-header">
                     <h1 class="page-title">Thống kê Dự đoán</h1>
-                    <p class="page-subtitle">Kiểm tra độ chính xác dựa trên lịch sử dự đoán đã lưu</p>
+                    <p class="page-subtitle">Kiểm tra toàn bộ dự đoán đã lưu theo từng kỳ quay</p>
                 </div>
                 ${summaryHtml}
                 ${detailHtml}
@@ -567,8 +598,8 @@ function displayPredictionResults(results) {
     results.forEach(result => {
         AppState.predictions.unshift(result);
     });
-    if (AppState.predictions.length > 50) {
-        AppState.predictions = AppState.predictions.slice(0, 50);
+    if (AppState.predictions.length > 1000) {
+        AppState.predictions = AppState.predictions.slice(0, 1000);
     }
     try {
         localStorage.setItem('predictions', JSON.stringify(AppState.predictions));
@@ -680,9 +711,9 @@ function savePrediction(index) {
     const prediction = window.currentPredictions[index];
     AppState.predictions.unshift(prediction); // Add to beginning
 
-    // Keep only last 50 predictions
-    if (AppState.predictions.length > 50) {
-        AppState.predictions = AppState.predictions.slice(0, 50);
+    // Keep only last 1000 predictions
+    if (AppState.predictions.length > 1000) {
+        AppState.predictions = AppState.predictions.slice(0, 1000);
     }
 
     try {
