@@ -1,13 +1,13 @@
 
 // Auto-generated historical data from scraper (Real Data)
 // Source: minhngoc.net.vn
-// Last updated: 2026-04-12T12:14:43.002Z
+// Last updated: 2026-04-13T12:59:13.670Z
 
 window.HistoricalData = {
     power655: {
   "lotteryType": "power655",
   "lotteryName": "Power 6/55",
-  "lastUpdated": "2026-04-12T12:03:42.785Z",
+  "lastUpdated": "2026-04-13T12:46:59.287Z",
   "totalDraws": 50,
   "results": [
     {
@@ -32,7 +32,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-11T12:03:42.788Z"
+      "timestamp": "2026-04-11T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260409",
@@ -56,7 +56,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-09T12:03:42.788Z"
+      "timestamp": "2026-04-09T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260407",
@@ -80,7 +80,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-07T12:03:42.788Z"
+      "timestamp": "2026-04-07T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260404",
@@ -104,7 +104,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-04T12:03:42.788Z"
+      "timestamp": "2026-04-04T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260402",
@@ -128,7 +128,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-02T12:03:42.788Z"
+      "timestamp": "2026-04-02T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260331",
@@ -152,7 +152,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-31T12:03:42.788Z"
+      "timestamp": "2026-03-31T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260328",
@@ -176,7 +176,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-28T12:03:42.788Z"
+      "timestamp": "2026-03-28T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260326",
@@ -200,7 +200,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-26T12:03:42.788Z"
+      "timestamp": "2026-03-26T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260324",
@@ -224,7 +224,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-24T12:03:42.788Z"
+      "timestamp": "2026-03-24T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260321",
@@ -248,7 +248,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-21T12:03:42.788Z"
+      "timestamp": "2026-03-21T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260319",
@@ -272,7 +272,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-19T12:03:42.788Z"
+      "timestamp": "2026-03-19T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260317",
@@ -296,7 +296,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-17T12:03:42.788Z"
+      "timestamp": "2026-03-17T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260314",
@@ -320,7 +320,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-14T12:03:42.788Z"
+      "timestamp": "2026-03-14T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260312",
@@ -344,7 +344,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-12T12:03:42.788Z"
+      "timestamp": "2026-03-12T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260310",
@@ -368,7 +368,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-10T12:03:42.788Z"
+      "timestamp": "2026-03-10T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260307",
@@ -392,7 +392,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-07T12:03:42.788Z"
+      "timestamp": "2026-03-07T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260305",
@@ -416,7 +416,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-05T12:03:42.788Z"
+      "timestamp": "2026-03-05T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260303",
@@ -440,7 +440,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-03T12:03:42.788Z"
+      "timestamp": "2026-03-03T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260228",
@@ -464,7 +464,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-28T12:03:42.788Z"
+      "timestamp": "2026-02-28T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260226",
@@ -488,7 +488,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-26T12:03:42.788Z"
+      "timestamp": "2026-02-26T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260224",
@@ -512,7 +512,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-24T12:03:42.788Z"
+      "timestamp": "2026-02-24T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260221",
@@ -536,7 +536,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-21T12:03:42.788Z"
+      "timestamp": "2026-02-21T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260219",
@@ -560,7 +560,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-19T12:03:42.788Z"
+      "timestamp": "2026-02-19T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260217",
@@ -584,7 +584,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-17T12:03:42.788Z"
+      "timestamp": "2026-02-17T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260214",
@@ -608,7 +608,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-14T12:03:42.788Z"
+      "timestamp": "2026-02-14T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260212",
@@ -632,7 +632,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-12T12:03:42.788Z"
+      "timestamp": "2026-02-12T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260210",
@@ -656,7 +656,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-10T12:03:42.788Z"
+      "timestamp": "2026-02-10T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260207",
@@ -680,7 +680,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-07T12:03:42.788Z"
+      "timestamp": "2026-02-07T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260205",
@@ -704,7 +704,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-05T12:03:42.788Z"
+      "timestamp": "2026-02-05T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260203",
@@ -728,7 +728,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-03T12:03:42.788Z"
+      "timestamp": "2026-02-03T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260131",
@@ -752,7 +752,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-31T12:03:42.788Z"
+      "timestamp": "2026-01-31T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260129",
@@ -776,7 +776,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-29T12:03:42.788Z"
+      "timestamp": "2026-01-29T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260127",
@@ -800,7 +800,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-27T12:03:42.788Z"
+      "timestamp": "2026-01-27T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260124",
@@ -824,7 +824,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-24T12:03:42.788Z"
+      "timestamp": "2026-01-24T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260122",
@@ -848,7 +848,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-22T12:03:42.788Z"
+      "timestamp": "2026-01-22T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260120",
@@ -872,7 +872,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-20T12:03:42.788Z"
+      "timestamp": "2026-01-20T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260117",
@@ -896,7 +896,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-17T12:03:42.788Z"
+      "timestamp": "2026-01-17T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260115",
@@ -920,7 +920,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-15T12:03:42.788Z"
+      "timestamp": "2026-01-15T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260113",
@@ -944,7 +944,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-13T12:03:42.788Z"
+      "timestamp": "2026-01-13T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260110",
@@ -968,7 +968,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-10T12:03:42.788Z"
+      "timestamp": "2026-01-10T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260108",
@@ -992,7 +992,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-08T12:03:42.788Z"
+      "timestamp": "2026-01-08T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260106",
@@ -1016,7 +1016,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-06T12:03:42.788Z"
+      "timestamp": "2026-01-06T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260103",
@@ -1040,7 +1040,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-03T12:03:42.788Z"
+      "timestamp": "2026-01-03T12:46:59.290Z"
     },
     {
       "drawId": "P655-20260101",
@@ -1064,7 +1064,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-01T12:03:42.788Z"
+      "timestamp": "2026-01-01T12:46:59.290Z"
     },
     {
       "drawId": "P655-20251230",
@@ -1088,7 +1088,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-30T12:03:42.788Z"
+      "timestamp": "2025-12-30T12:46:59.290Z"
     },
     {
       "drawId": "P655-20251227",
@@ -1112,7 +1112,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-27T12:03:42.788Z"
+      "timestamp": "2025-12-27T12:46:59.290Z"
     },
     {
       "drawId": "P655-20251225",
@@ -1136,7 +1136,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-25T12:03:42.788Z"
+      "timestamp": "2025-12-25T12:46:59.290Z"
     },
     {
       "drawId": "P655-20251223",
@@ -1160,7 +1160,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-23T12:03:42.788Z"
+      "timestamp": "2025-12-23T12:46:59.290Z"
     },
     {
       "drawId": "P655-20251220",
@@ -1184,7 +1184,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-20T12:03:42.788Z"
+      "timestamp": "2025-12-20T12:46:59.290Z"
     },
     {
       "drawId": "P655-20251218",
@@ -1208,14 +1208,14 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-18T12:03:42.788Z"
+      "timestamp": "2025-12-18T12:46:59.290Z"
     }
   ]
 },
     mega645: {
   "lotteryType": "mega645",
   "lotteryName": "Mega 6/45",
-  "lastUpdated": "2026-04-12T12:03:42.785Z",
+  "lastUpdated": "2026-04-13T12:46:59.287Z",
   "totalDraws": 50,
   "results": [
     {
@@ -1240,7 +1240,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-12T12:09:20.373Z"
+      "timestamp": "2026-04-12T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260410",
@@ -1264,7 +1264,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-10T12:09:20.373Z"
+      "timestamp": "2026-04-10T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260408",
@@ -1288,7 +1288,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-08T12:09:20.373Z"
+      "timestamp": "2026-04-08T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260405",
@@ -1312,7 +1312,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-05T12:09:20.373Z"
+      "timestamp": "2026-04-05T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260403",
@@ -1336,7 +1336,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-03T12:09:20.373Z"
+      "timestamp": "2026-04-03T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260401",
@@ -1360,7 +1360,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-04-01T12:09:20.373Z"
+      "timestamp": "2026-04-01T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260329",
@@ -1384,7 +1384,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-29T12:09:20.373Z"
+      "timestamp": "2026-03-29T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260327",
@@ -1408,7 +1408,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-27T12:09:20.373Z"
+      "timestamp": "2026-03-27T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260325",
@@ -1432,7 +1432,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-25T12:09:20.373Z"
+      "timestamp": "2026-03-25T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260322",
@@ -1456,7 +1456,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-22T12:09:20.373Z"
+      "timestamp": "2026-03-22T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260320",
@@ -1480,7 +1480,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-20T12:09:20.373Z"
+      "timestamp": "2026-03-20T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260318",
@@ -1504,7 +1504,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-18T12:09:20.373Z"
+      "timestamp": "2026-03-18T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260315",
@@ -1528,7 +1528,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-15T12:09:20.373Z"
+      "timestamp": "2026-03-15T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260313",
@@ -1552,7 +1552,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-13T12:09:20.373Z"
+      "timestamp": "2026-03-13T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260311",
@@ -1576,7 +1576,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-11T12:09:20.373Z"
+      "timestamp": "2026-03-11T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260308",
@@ -1600,7 +1600,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-08T12:09:20.373Z"
+      "timestamp": "2026-03-08T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260306",
@@ -1624,7 +1624,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-06T12:09:20.373Z"
+      "timestamp": "2026-03-06T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260304",
@@ -1648,7 +1648,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-04T12:09:20.373Z"
+      "timestamp": "2026-03-04T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260301",
@@ -1672,7 +1672,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-03-01T12:09:20.373Z"
+      "timestamp": "2026-03-01T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260227",
@@ -1696,7 +1696,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-27T12:09:20.373Z"
+      "timestamp": "2026-02-27T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260225",
@@ -1720,7 +1720,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-25T12:09:20.373Z"
+      "timestamp": "2026-02-25T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260222",
@@ -1744,7 +1744,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-22T12:09:20.373Z"
+      "timestamp": "2026-02-22T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260220",
@@ -1768,7 +1768,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-20T12:09:20.373Z"
+      "timestamp": "2026-02-20T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260218",
@@ -1792,7 +1792,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-18T12:09:20.373Z"
+      "timestamp": "2026-02-18T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260215",
@@ -1816,7 +1816,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-15T12:09:20.373Z"
+      "timestamp": "2026-02-15T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260213",
@@ -1840,7 +1840,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-13T12:09:20.373Z"
+      "timestamp": "2026-02-13T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260211",
@@ -1864,7 +1864,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-11T12:09:20.373Z"
+      "timestamp": "2026-02-11T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260208",
@@ -1888,7 +1888,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-08T12:09:20.373Z"
+      "timestamp": "2026-02-08T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260206",
@@ -1912,7 +1912,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-06T12:09:20.373Z"
+      "timestamp": "2026-02-06T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260204",
@@ -1936,7 +1936,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-04T12:09:20.373Z"
+      "timestamp": "2026-02-04T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260201",
@@ -1960,7 +1960,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-02-01T12:09:20.373Z"
+      "timestamp": "2026-02-01T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260130",
@@ -1984,7 +1984,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-30T12:09:20.373Z"
+      "timestamp": "2026-01-30T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260128",
@@ -2008,7 +2008,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-28T12:09:20.373Z"
+      "timestamp": "2026-01-28T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260125",
@@ -2032,7 +2032,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-25T12:09:20.373Z"
+      "timestamp": "2026-01-25T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260123",
@@ -2056,7 +2056,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-23T12:09:20.373Z"
+      "timestamp": "2026-01-23T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260121",
@@ -2080,7 +2080,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-21T12:09:20.373Z"
+      "timestamp": "2026-01-21T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260118",
@@ -2104,7 +2104,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-18T12:09:20.373Z"
+      "timestamp": "2026-01-18T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260116",
@@ -2128,7 +2128,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-16T12:09:20.373Z"
+      "timestamp": "2026-01-16T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260114",
@@ -2152,7 +2152,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-14T12:09:20.373Z"
+      "timestamp": "2026-01-14T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260111",
@@ -2176,7 +2176,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-11T12:09:20.373Z"
+      "timestamp": "2026-01-11T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260109",
@@ -2200,7 +2200,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-09T12:09:20.373Z"
+      "timestamp": "2026-01-09T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260107",
@@ -2224,7 +2224,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-07T12:09:20.373Z"
+      "timestamp": "2026-01-07T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260104",
@@ -2248,7 +2248,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-04T12:09:20.373Z"
+      "timestamp": "2026-01-04T12:53:11.783Z"
     },
     {
       "drawId": "M645-20260102",
@@ -2272,7 +2272,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2026-01-02T12:09:20.373Z"
+      "timestamp": "2026-01-02T12:53:11.783Z"
     },
     {
       "drawId": "M645-20251231",
@@ -2296,7 +2296,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-31T12:09:20.373Z"
+      "timestamp": "2025-12-31T12:53:11.783Z"
     },
     {
       "drawId": "M645-20251228",
@@ -2320,7 +2320,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-28T12:09:20.373Z"
+      "timestamp": "2025-12-28T12:53:11.783Z"
     },
     {
       "drawId": "M645-20251226",
@@ -2344,7 +2344,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-26T12:09:20.373Z"
+      "timestamp": "2025-12-26T12:53:11.783Z"
     },
     {
       "drawId": "M645-20251224",
@@ -2368,7 +2368,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-24T12:09:20.373Z"
+      "timestamp": "2025-12-24T12:53:11.783Z"
     },
     {
       "drawId": "M645-20251221",
@@ -2392,7 +2392,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-21T12:09:20.373Z"
+      "timestamp": "2025-12-21T12:53:11.783Z"
     },
     {
       "drawId": "M645-20251219",
@@ -2416,7 +2416,7 @@ window.HistoricalData = {
         "prize2": 0,
         "prize3": 0
       },
-      "timestamp": "2025-12-19T12:09:20.373Z"
+      "timestamp": "2025-12-19T12:53:11.783Z"
     }
   ]
 }
